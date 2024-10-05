@@ -1,0 +1,196 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.phone{
+  fill: orange;
+}
+.services{
+  color:rgb(64, 64, 64)
+}
+.mqlogo{
+  display: none;
+}
+@media (max-width:1350px) 
+{
+.cross{
+  display: none;}
+  .aimg{
+display: none;
+  }
+
+}
+@media (max-width: 698px){
+  .mainimg{
+    display: none;
+  }
+}
+@media (max-width: 515px) {
+  .portfolio-cards{
+    display: flex;
+   margin: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+ 
+  
+.footer{
+  display: flex;
+ flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+   
+  }
+  
+  .logo{
+    display: none;
+  }
+  
+  .mqlogo{
+    display: block;
+  }
+  
+
+  .nav-content{
+    display: inline;
+
+  }
+  .mqnavic{
+    display: none;
+  }
+}
+.linkdinn{
+  fill: orange;
+}
+.githubb{
+  fill: orange;
+}
+.twitterr{
+  fill: orange;
+}
+.whatsapp{
+  fill: orange;
+}
+.linkdinn:hover{
+  background-color: #0077B5;
+  fill: white;
+}
+.githubb:hover{
+  background-color:#181717;
+  fill: white;
+}
+.twitterr:hover{
+  fill: white;
+  background-color:  #181717;
+}
+.whatsapp:hover{
+  fill: white;
+  background-color: #25D366; 
+}
+@media (max-width: 773px) {
+.mqaboutme{
+padding:0;
+margin: 0;
+font-size: px;
+align-items: center;
+justify-content: space-around;
+/* padding: 100px; */
+}
+.mqhashtags{
+  gap: 2px;
+  padding: 0;
+font-size: 12px;
+padding-top: 10px;
+}
+.mqaboutme{
+font-size: 15x;
+margin: auto;
+}
+.mqtext{
+  font-size: 12px;
+  margin: auto;
+  margin: 0;
+  padding: 0;
+}
+.mqcross{
+  display: none;
+}
+.mqdjimg{
+  height: 100px;
+}
+
+.mqgetin{
+  padding: 8px;
+}
+
+} 
+.stylish-regular {
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.abt{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+/* flex-direction: column; */
+}
+.abt:hover{
+  display: flex;
+  gap: 15px;
+}
+.logo{
+  font-family: "Audiowide", sans-serif;
+  color: orange;
+  font: 24px;
+}
+.getin{
+  background-color: rgb(221, 149, 16);
+  color: black;
+}
+.getin:hover{
+  background-color: orange;
+  
+}
+.introcont{
+  display: flex;
+  align-items: center;
+justify-content: space-evenly;
+gap: 100px;
+
+
+}
+.container{
+  
+height: 80vh;
+margin: auto;
+z-index: 10;
+background-color:  darkslategray;
+color: white;
+width: 80%;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px rgba(38, 38, 38, 0.25);
+
+}
+.cross{
+  fill:white;
+  cursor: pointer;
+
+}
+.cross:hover{
+  fill: black;
+}
+.typeWriterText{
+  color: orange;
+  font-size: 30px;
+font-style:oblique;
+font-family: '''Times New Roman', Times, serif;
+}
+.text-orange{
+  color: orange;
+  
+}
