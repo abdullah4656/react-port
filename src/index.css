@@ -13,12 +13,16 @@
 .mqlogo{
   display: none;
 }
-@media (max-width:1350px) 
+@media (max-width:1360px) 
 {
-.cross{
-  display: none;}
+
+  .abt{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+  }
   .aimg{
-display: none;
+    display: none;
   }
 
 }
@@ -133,16 +137,8 @@ margin: auto;
   font-weight: 400;
   font-style: normal;
 }
-.abt{
-  display: flex;
-  align-items: center;
-  gap: 10px;
-/* flex-direction: column; */
-}
-.abt:hover{
-  display: flex;
-  gap: 15px;
-}
+
+
 .logo{
   font-family: "Audiowide", sans-serif;
   color: orange;
@@ -169,7 +165,7 @@ gap: 100px;
 height: 80vh;
 margin: auto;
 z-index: 10;
-background-color:  darkslategray;
+background-color:rgb(62, 59, 59);
 color: white;
 width: 80%;
 border-radius: 10px;
@@ -182,7 +178,7 @@ box-shadow: 5px 5px 5px 5px rgba(38, 38, 38, 0.25);
 
 }
 .cross:hover{
-  fill: black;
+  fill: orange;
 }
 .typeWriterText{
   color: orange;
@@ -193,4 +189,30 @@ font-family: '''Times New Roman', Times, serif;
 .text-orange{
   color: orange;
   
+}
+.input::target-text{
+  color: white;
+
+}
+input:focus,
+textarea:focus {
+    outline: none !important; /* Remove default outline */
+    border-color: #af822e !important; /* Change border color on focus */
+    box-shadow: 0 0 5px orange !important; /* Custom focus ring */
+}
+.icon {
+  transition: transform 0.30s ease; /* Smooth transition for rotation */
+  fill: rgb(255, 255, 255);
+
+  
+}
+.iconn{
+  fill: #25D366;
+}
+.card:hover .icon {
+
+/* Rotate icon on card hover */
+transform:rotateX(180deg);
+/* fill: blue; */
+fill:darkslateblue
 }

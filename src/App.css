@@ -65,7 +65,7 @@ bottom: -130px;
     /* width: 80%; */
 }
 .card {
-  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.25);
   color: white;
   
@@ -76,7 +76,7 @@ bottom: -130px;
 
 .card:hover {
   transform: translateY(-10px); /* Adjust this value as needed */
-  background-color: orange; /* Tailwind's indigo-700 */
+  background-color: orange; 
   color: black; /* Tailwind's slate-50 */
 }
 .intro{
