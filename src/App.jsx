@@ -8,7 +8,7 @@ import Aboutme from './componenets/Aboutme';
 import ContactForm from './componenets/ContactForm';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useRef } from 'react';
-import Prc from './componenets/prc';
+
 // import Matter from './componenets/Matter';
 function App() {
   const contactFormRef = useRef(null);
@@ -29,7 +29,7 @@ function App() {
         </div>
         
         <Footer />
-      <Prc/>
+  
       </Router>
       </div>
     </>

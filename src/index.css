@@ -216,3 +216,21 @@ transform:rotateX(180deg);
 /* fill: blue; */
 fill:darkslateblue
 }
+.spin {
+  width: 100px;
+  height: 100px;
+  fill: wheat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: spin 1s linear infinite; /* Spin animation */
+}
+
+@keyframes spin {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}
