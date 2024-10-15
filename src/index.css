@@ -205,7 +205,7 @@ font-family: '''Times New Roman', Times, serif;
 
 
 .icon {
-  transition: transform 0.30s ease; /* Smooth transition for rotation */
+  transition: transform 0.30s ease; 
   fill: rgb(255, 255, 255);
 
   
@@ -318,9 +318,8 @@ justify-content: end  ;
 .mq-heading-port{
   font-size: 35px;
 }
-.count{
-  height: 70vh;
-}
+
+
 
 
 }

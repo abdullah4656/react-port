@@ -34,7 +34,7 @@ const Count = () => {
   return (
     <div className='count mq-count  bg-slate-200 font-medium text-2xl text-white flex justify-around pb-20'>
       <div>
-        <h1 className='font-sans'>{years} <span>+</span></h1>
+        <h1 className='font-sans font-normal text-xl'>{years} <span>+</span></h1>
         <h1>Years Helping Business</h1>
       </div>
       <div>
