@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import background from "../assets/banner-bg.jpg";
 /* background-image: url('images/banner-bg.jpg');     */
-const Count = () => {
+const Count=()=>{
   const [years, setYears] = useState(0);
   const [employees, setEmployees] = useState(0);
   const [projects, setProjects] = useState(0);
@@ -46,7 +46,7 @@ position: "relative",
     backgroundAttachment:" fixed",
 };
   return (
-    <div style={myStyle} className='   bg-slate-200 font-medium text-2xl text-white flex justify-around pb-20'>
+    <div style={myStyle} className=' count mq-count  bg-slate-200 font-medium text-2xl text-white flex justify-around pb-20'>
       <div>
         <h1 className='font-sans font-normal text-xl'>{years} <span>+</span></h1>
         <h1>Years Helping Business</h1>
