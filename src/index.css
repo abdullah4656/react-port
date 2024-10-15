@@ -11,54 +11,9 @@
   color:rgb(64, 64, 64)
 }
 
-@media (max-width:1360px) 
-{
 
-  .abt{
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
-  }
-  .aimg{
-    display: none;
-  }
 
-}
 
-@media (max-width: 515px) {
-  .portfolio-cards{
-    display: flex;
-   margin: 5px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
- 
-  
-.footer{
-  display: flex;
- flex-direction: column;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-   
-  }
-  
- 
-  
-  .mqlogo{
-    display: block;
-  }
-  
-
-  .nav-content{
-    display: inline;
-
-  }
-  .mqnavic{
-    display: none;
-  }
-}
 .facebook:hover{
   background-color: #3B5998;
   fill: white;
@@ -110,44 +65,6 @@
   background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
   fill: white;
 }
-
-@media (max-width: 773px) {
-.mqaboutme{
-padding:0;
-margin: 0;
-font-size: px;
-align-items: center;
-justify-content: space-around;
-/* padding: 100px; */
-}
-.mqhashtags{
-  gap: 2px;
-  padding: 0;
-font-size: 12px;
-padding-top: 10px;
-}
-.mqaboutme{
-font-size: 15x;
-margin: auto;
-}
-.mqtext{
-  font-size: 12px;
-  margin: auto;
-  margin: 0;
-  padding: 0;
-}
-.mqcross{
-  display: none;
-}
-.mqdjimg{
-  height: 100px;
-}
-
-.mqgetin{
-  padding: 8px;
-}
-
-} 
 .stylish-regular {
   font-family: "Stylish", serif;
   font-weight: 400;
@@ -282,16 +199,7 @@ justify-content: end  ;
  
 }
  }
-@media (max-width: 940px) {
-  .mq-nav-button{
-    display: none;
-  }
-  .sticky-header{
-    padding-right:30px ;
-    margin: 0px;
-    width: 100%;
-  }
-  }
+
   @media (max-width: 783px) {
   .mq-footer{
     display: flex;
@@ -318,10 +226,6 @@ justify-content: end  ;
 .mq-heading-port{
   font-size: 35px;
 }
-
-
-
-
 }
 @media (max-width: 920px) {
   .logo{
@@ -407,3 +311,47 @@ justify-items: center;
     
     }
 }
+@media (max-width: 940px) {
+  .mq-nav-button{
+    display: none;
+  }
+  .sticky-header{
+    padding-right:30px ;
+    margin: 0px;
+    width: 100%;
+  }
+  }
+  @media (max-width: 515px) {
+    .portfolio-cards{
+      display: flex;
+     margin: 5px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+   
+    
+  .footer{
+    display: flex;
+   flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+     
+    }
+    
+   
+    
+    .mqlogo{
+      display: block;
+    }
+    
+  
+    .nav-content{
+      display: inline;
+  
+    }
+    .mqnavic{
+      display: none;
+    }
+  }
