@@ -6,46 +6,46 @@ const Into = () => {
   return (
   <>
 
-  <div className='introcont '>
-  <div className='p-10' >
+  <div className='introcont p-2 mq-main-form'>
+  <div className='p-8' >
  
       <h2>
-        <strong className='font-serif text-6xl text-white name italic'>Abdullah Yasin</strong>
+        <strong className='font-serif text-6xl text-blue-400 name italic logo     '>Code Viper</strong>
       </h2>
-      <h3 className='text-3xl  text-white intro italic '>
+      <h3 className='flex  justify-center items-center text-4xl intro-desc '>
       <TypeAnimation
       sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'Django Developer',
-        2000,
-        'React Developer',
-        2000,
-        'Full Stack Developer',
+        
+        'Leading Software Solutions Company',
         2000,
         
       ]}
       wrapper="span"
-      speed={40}
-      style={{ fontFamily:'none',fontStyle:'italic',color:'orange' }}
+      speed={60}
+      style={{ fontFamily:'none'}}
+      className='text-blue-800   font-arial font-semibold'
       repeat={0}
     />
        
       </h3>  
-      <div className="flex flex-col items-center justify-center  intro">
+      <br />
+      <div className="flex flex-col items-center justify-center  ">
       <p className="
-        text-base
+        
          md:text-xl
           lg:text-2xl 
-            text-white
+            text-gray-800
+            flex justify-center items-center mx-auto
       ">
-      𝘔𝘢𝘬𝘦 𝘺𝘰𝘶𝘳 𝘪𝘯𝘵𝘦𝘳𝘢𝘤𝘵𝘪𝘷𝘦 𝘸𝘦𝘣 𝘢𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯𝘴 𝘸𝘪𝘵𝘩 𝘣𝘢𝘤𝘬𝘦𝘯𝘥 𝘵𝘦𝘤𝘩𝘯𝘰𝘭𝘰𝘨𝘺 𝘋𝘫𝘢𝘯𝘨𝘰 𝘰𝘳 𝘋𝘫𝘢𝘯𝘨𝘰 𝘙𝘌𝘚𝘛 𝘍𝘳𝘢𝘮𝘦𝘸𝘰𝘳𝘬 𝘢𝘯𝘥 𝘧𝘳𝘰𝘯𝘵𝘦𝘯𝘥 𝘸𝘪𝘵𝘩 𝘙𝘦𝘢𝘤𝘵 𝘰𝘳 𝘋𝘫𝘢𝘯𝘨𝘰 𝘛𝘦𝘮𝘱𝘭𝘢𝘵𝘦 𝘌𝘯𝘨𝘪𝘯𝘦 </p>
+      Transform your business with custom IT solutions designed to meet specific needs. Expertise ensures competitiveness and success through innovative technology and digital strategies.</p>
     </div>
   
      
     </div>
-    <img className='w-1/4 rounded-xl mainimg' src="images/m.png" alt="" />
-    <div>
-</div>
+  
+    <img className='w-1/4 mq-main-img rounded-xl  bg-blue-400 ' src="images/home-2.png" alt="" />
+  
+   
 </div>
     </>
   );

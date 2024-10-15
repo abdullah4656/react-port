@@ -3,36 +3,21 @@ import React from 'react'
 const Portfolio = () => {
   return (
     <>
-    <div className="  font-serif p-5 flex flex-wrap items-center justify-center font-bold text-6xl text-white  mb-6 italic">
+   
+   <section className='w-full psec'>
+   
+   <h3 className='flex justify-center text-4xl mq-heading-port text-gray-800 font-medium p-20'>Our Portfolio</h3> 
+<div className='flex gap-10 p-5 justify-evenly flex-wrap pb-40'>
+<a href="" className='none'><img className=''  src="images/Buses_Plus_1.png" alt="" /></a>
+<a href=""><img className='w-1/4' src="images/sponge_3.png" alt="" /></a>
+<a href=""><img className='w-1/4' src="images/Watermart.png" alt="" /></a>
+<a href=""><img className='w-1/4' src="images/Thorai.jpeg" alt="" /></a>
+<a href=""><img className='w-1/4' src="images/wise_eye_1.png" alt="" /></a>
+<a href=""><img className='w-1/4' src="images/Buses_Plus_1.png" alt="" /></a>
 
-    Portfolio
+
 </div>
-    <div className='flex gap-10 p-5 font-nunito portfolio-cards '>
-        
-        <div className='card  rounded-md   bg-gray-800 cursor-pointer'>
-        <h2 className=' text-4xl p-5 font-semibold font-nunito'>Blogs Project</h2>
-          <img className='p-3' src="images/blogs.png" alt="" />
-          <p className='p-3 '>
-            A blogs project  where users can post  blogs by signing in.
-          </p>
-          <p className='p-3 text-xl'>Made with Django Template Engine</p>
-      
-        </div>
-        <div className='card bg-gray-800 rounded-md shadow-2xl   hover:text-slate-50 cursor-pointer '>
-        <h2 className='text-4xl p-5 font-semibold font-nunito'>API Project</h2>
-          <img className='p-3' src="images/adv.png" alt="" />
-          <p className='p-3 '> Advocate profile project where different advocates can mae their profiles share their social links  </p>
-           <p className='p-3 text-xl'>Made with Django Rest API</p>       
-        </div>
-        <div className='card bg-gray-800 rounded-md shadow-2xl   hover:text-slate-50 cursor-pointer'>
-         <h2 className=' text-4xl p-5 font-semibold font-nunito'>Crud Project</h2>
-          <img className='p-3' src="images/curd.png" alt="" />
-          <p className='p-3 '>Simple crud project  where users can create, edit, delete and view data</p>
-          <p className='p-3 text-xl'>Made with Django and its Template Engine</p>
-        </div>
-
-        </div>
-        
+    </section>
         </>
     
   )

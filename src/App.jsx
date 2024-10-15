@@ -6,32 +6,46 @@ import Portfolio from './componenets/Portfolio';
 import Services from './componenets/Services';
 import Aboutme from './componenets/Aboutme';
 import ContactForm from './componenets/ContactForm';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useRef } from 'react';
-
+import Work from './componenets/Work';
+import Count from './componenets/Count';
+import Team from './componenets/Team';
+import Loader from './componenets/Loader';
+import { useEffect } from 'react';
+import { useState } from 'react';
 // import Matter from './componenets/Matter';
 function App() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Simulate loading process (e.g., data fetching)
+    setTimeout(() => {
+      setLoading(false); // Stop loading after 3 seconds
+    },500);
+  }, []);
+
   const contactFormRef = useRef(null);
+  const Serviceformref = useRef(null);
   return (
     <>
-    <div className='bg-black'>
-      <Router basename={import.meta.env.BASE_URL}>
-        <Navbar contactFormRef={contactFormRef} />
-        <Into />
-        <Aboutme />
-        <Services />
-        <Portfolio />
-        
-        <div ref={contactFormRef}>
-          <Routes>
-            <Route path="/" element={<ContactForm />} />
-          </Routes>
+      {loading ? (
+        <Loader />
+      ) : (
+        <div className='bg-slate-300'>
+            <Navbar/>
+            <Into/>
+            <Services/>
+          <Aboutme/>
+            <Portfolio />
+
+            <Count />
+            <Work />
+            <Footer />
+        <ContactForm/>
+          <Team />
         </div>
-        
-        <Footer />
-  
-      </Router>
-      </div>
+      )}
     </>
   );
 }

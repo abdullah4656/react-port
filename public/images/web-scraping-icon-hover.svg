@@ -1,0 +1,60 @@
+<svg id="SvgjsSvg1035" width="256" height="256" xmlns="http://www.w3.org/2000/svg" version="1.1"
+     xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs">
+    <defs id="SvgjsDefs1036"></defs>
+    <g id="SvgjsG1037">
+        <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 64 64" viewBox="0 0 64 64" width="256"
+             height="256">
+            <path fill="white"
+                  d="M6,54h52c1.105,0,2-0.895,2-2V16c0-1.105-0.895-2-2-2H6c-1.105,0-2,0.895-2,2v36C4,53.105,4.895,54,6,54z"
+                  class="color0a5078 svgShape"></path>
+            <path fill="#7b68ee" d="M43,14v26l3.106,6.211c0.369,0.737,1.42,0.737,1.789,0L51,40V14H43z"
+                  class="color00325a svgShape"></path>
+            <path fill="white"
+                  d="M9,50h46c0.552,0,1-0.448,1-1V19c0-0.552-0.448-1-1-1H9c-0.552,0-1,0.448-1,1v30C8,49.552,8.448,50,9,50z"
+                  class="color00a0c8 svgShape"></path>
+            <path fill="orange"
+                  d="M18,43h-7c-0.553,0-1-0.447-1-1V31c0-0.553,0.447-1,1-1s1,0.447,1,1v10h6c0.553,0,1,0.447,1,1S18.553,43,18,43z"
+                  class="colorc80a50 svgShape"></path>
+            <polygon fill="orange" points="18 39 18 45 21 42" class="colorc80a50 svgShape"></polygon>
+            <path fill="orange"
+                  d="M18,46c-0.129,0-0.259-0.024-0.383-0.076C17.243,45.77,17,45.404,17,45v-6c0-0.404,0.243-0.77,0.617-0.924c0.375-0.155,0.804-0.069,1.09,0.217l3,3c0.391,0.391,0.391,1.023,0,1.414l-3,3C18.516,45.898,18.26,46,18,46z M19,41.414v1.172L19.586,42L19,41.414z"
+                  class="colorc80a50 svgShape"></path>
+            <path fill="#0082aa" d="M43,18v22l3.106,6.211c0.369,0.737,1.42,0.737,1.789,0L51,40V18H43z"
+                  class="color0082aa svgShape"></path>
+            <rect width="8" height="4" x="28" y="54" fill="#0a5078" transform="rotate(-180 32 56)"
+                  class="color0a5078 svgShape"></rect>
+            <path fill="#0a5078" d="M20,60h24v0c0-1.105-0.895-2-2-2H22C20.895,58,20,58.895,20,60L20,60z"
+                  class="color0a5078 svgShape"></path>
+            <rect width="8" height="1" x="28" y="54" fill="#00325a" transform="rotate(-180 32 54.5)"
+                  class="color00325a svgShape"></rect>
+            <rect width="8" height="28" x="44" y="12" fill="#fab400" class="colorfab400 svgShape"></rect>
+            <polygon fill="#f0c8a0" points="52 40 44 40 46 44 50 44" class="colorf0c8a0 svgShape"></polygon>
+            <path fill="#0a5078" d="M46,44l1.106,2.211c0.369,0.737,1.42,0.737,1.789,0L50,44H46z"
+                  class="color0a5078 svgShape"></path>
+            <rect width="8" height="2" x="44" y="10" fill="#f0f0f0" class="colorf0f0f0 svgShape"></rect>
+            <path fill="#0a5078" d="M50,4h-4c-1.105,0-2,0.895-2,2v4h8V6C52,4.895,51.105,4,50,4z"
+                  class="color0a5078 svgShape"></path>
+            <rect width="16" height="10" x="11" y="21" fill="#f0f0f0" class="colorf0f0f0 svgShape"></rect>
+            <path fill="#d2d2d2"
+                  d="M27,32H11c-0.553,0-1-0.447-1-1V21c0-0.553,0.447-1,1-1h16c0.553,0,1,0.447,1,1v10C28,31.553,27.553,32,27,32z M12,30h14v-8H12V30z"
+                  class="colord2d2d2 svgShape"></path>
+            <rect width="2" height="18.868" x="18" y="16.566" fill="#d2d2d2" transform="rotate(-58 19 26)"
+                  class="colord2d2d2 svgShape"></rect>
+            <rect width="18.868" height="2" x="9.566" y="25" fill="#d2d2d2" transform="rotate(-32.031 18.998 25.998)"
+                  class="colord2d2d2 svgShape"></rect>
+            <rect width="16" height="10" x="23" y="37" fill="#f0f0f0" class="colorf0f0f0 svgShape"></rect>
+            <path fill="#d2d2d2"
+                  d="M39,48H23c-0.553,0-1-0.447-1-1V37c0-0.553,0.447-1,1-1h16c0.553,0,1,0.447,1,1v10C40,47.553,39.553,48,39,48z M24,46h14v-8H24V46z"
+                  class="colord2d2d2 svgShape"></path>
+            <rect width="2" height="18.868" x="30" y="32.566" fill="#d2d2d2" transform="rotate(-58 31 42)"
+                  class="colord2d2d2 svgShape"></rect>
+            <rect width="18.868" height="2" x="21.566" y="41" fill="#d2d2d2" transform="rotate(-32.031 30.996 41.996)"
+                  class="colord2d2d2 svgShape"></rect>
+            <g>
+                <path fill="orange"
+                      d="M39 22h-8c-.552 0-1-.448-1-1v0c0-.552.448-1 1-1h8c.552 0 1 .448 1 1v0C40 21.552 39.552 22 39 22zM39 26h-8c-.552 0-1-.448-1-1v0c0-.552.448-1 1-1h8c.552 0 1 .448 1 1v0C40 25.552 39.552 26 39 26zM39 30h-8c-.552 0-1-.448-1-1v0c0-.552.448-1 1-1h8c.552 0 1 .448 1 1v0C40 29.552 39.552 30 39 30zM39 34h-8c-.552 0-1-.448-1-1l0 0c0-.552.448-1 1-1h8c.552 0 1 .448 1 1l0 0C40 33.552 39.552 34 39 34z"
+                      class="color0082aa svgShape"></path>
+            </g>
+        </svg>
+    </g>
+</svg>
