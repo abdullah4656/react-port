@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-
+import background from "../assets/banner-bg.jpg";
+/* background-image: url('images/banner-bg.jpg');     */
 const Count = () => {
   const [years, setYears] = useState(0);
   const [employees, setEmployees] = useState(0);
@@ -30,9 +31,22 @@ const Count = () => {
       clearInterval(satisfactionInterval);
     };
   }, [years, employees, projects, satisfaction]);
-
+  const myStyle = {
+    backgroundImage: `url(${background})`,
+   width: "100%",
+height: "50vh",
+position: "relative",
+    zIndex: "1",
+    padding: "120px 0",
+    textAlign: "center",
+    
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundAttachment:" fixed",
+};
   return (
-    <div className='count mq-count  bg-slate-200 font-medium text-2xl text-white flex justify-around pb-20'>
+    <div style={myStyle} className='   bg-slate-200 font-medium text-2xl text-white flex justify-around pb-20'>
       <div>
         <h1 className='font-sans font-normal text-xl'>{years} <span>+</span></h1>
         <h1>Years Helping Business</h1>
