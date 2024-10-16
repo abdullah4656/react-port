@@ -58,10 +58,10 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
           </ul>
         </div>
 
-        {/* Get IT Support Button */}
+      
         <button
           onClick={handleGetInTouchClick}
-          className="bg-blue-900 focus:ring-2 font-semibold shadow-2xl text-white border-0 py-2 px-8 rounded text-lg transition-transform duration-300 hover:scale-105 focus:outline-none  hidden md:flex"
+          className="m-5 bg-blue-900 focus:ring-2 font-semibold shadow-2xl text-white border-0 py-2 px-8 rounded text-lg transition-transform duration-300 hover:scale-105 focus:outline-none  hidden md:flex"
         >
           Get IT Support
         </button>
@@ -78,8 +78,6 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
           </div>
         </button>
       </nav>
-
-      {/* Inline styling for the hamburger menu animation */}
       <style jsx>{`
         .hamburger {
           display: block;
