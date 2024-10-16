@@ -12,27 +12,23 @@ export default {
       fill: {
         linkedin: '#0077B5',
         twitter: '#1DA1F2',
-        github: '#181717' // GitHub's color
-
+        github: '#181717', // GitHub's color
       },
-     
       fontFamily: {
         sans: ['Nunito', 'sans-serif'],
-         
-         montserrat: ['Montserrat', 'sans-serif'],
-         arial: ['Arial', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        arial: ['Arial', 'sans-serif'],
       },
-      backgroundColor:{
-'bg---;':'background-color: rgb(43, 107, 226);',
-linkedin: '#0077B5',
-twitter: '#1DA1F2',
-github: '#181717'
+      backgroundColor: {
+        linkedin: '#0077B5',
+        twitter: '#1DA1F2',
+        github: '#181717',
+        'custom-blue': 'rgb(43, 107, 226)', // Corrected custom color
       },
       borderColor: {
-        twitter: '#1DA1F2'}
+        twitter: '#1DA1F2',
+      },
     },
   },
   plugins: [],
 }
-
-// tailwind.config.js
