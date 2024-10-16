@@ -20,9 +20,9 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
   return (
     <>
       <nav
-        className={`flex sticky-header justify-between ${
+        className={`flex sticky-header justify-between items-center bg-blue-500 rounded-md transition-all duration-300 ${
           isOpen ? "m-0" : "m-5"
-        } items-center bg-blue-500 rounded-md transition-all duration-300`}
+        }`}
       >
         <a className="p-2 font-bold text-4xl" href="/">
           <img className="w-20" src="images/code-Viper-logo.svg" alt="Logo" />
