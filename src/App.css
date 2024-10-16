@@ -295,37 +295,7 @@ position: relative;
   transition: background-color 0.4s, color 0.4s,  box-shadow 0.4s; 
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
-.hamburger {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 20px;
-  width: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
-}
-.hamburger .bar {
-  height: 3px;
-  background-color: white;
-  transition: all 0.3s ease-in-out;
-}
-.hamburger.open .bar:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
 
-.hamburger.open .bar:nth-child(2) {
-  opacity: 0;
-}
-
-.hamburger.open .bar:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
-.ham-button{
-  display: none;
-}
-.phone{
-  fill: orange;
-}
 .services{
   color:rgb(64, 64, 64)
 }

@@ -19,13 +19,17 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
 
   return (
     <>
-      <nav className="flex sticky-header justify-between m-5 items-center bg-blue-500 rounded-md">
+      <nav
+        className={`flex sticky-header justify-between ${
+          isOpen ? "m-0" : "m-5"
+        } items-center bg-blue-500 rounded-md transition-all duration-300`}
+      >
         <a className="p-2 font-bold text-4xl" href="/">
           <img className="w-20" src="images/code-Viper-logo.svg" alt="Logo" />
         </a>
 
         {/* Navigation Links for larger screens */}
-        <div className=" hidden md:flex">
+        <div className="hidden md:flex">
           <div className="text-white flex justify-evenly items-center gap-4 text-2xl">
             <a href="/">Home</a>
             <a href="/services">Services</a> {/* Use <Link> if React Router */}
@@ -58,10 +62,9 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
           </ul>
         </div>
 
-      
         <button
           onClick={handleGetInTouchClick}
-          className="m-5 bg-blue-900 focus:ring-2 font-semibold shadow-2xl text-white border-0 py-2 px-8 rounded text-lg transition-transform duration-300 hover:scale-105 focus:outline-none  hidden md:flex"
+          className="m-5 bg-blue-900 focus:ring-2 font-semibold shadow-2xl text-white border-0 py-2 px-8 rounded text-lg transition-transform duration-300 hover:scale-105 focus:outline-none hidden md:flex"
         >
           Get IT Support
         </button>
