@@ -31,9 +31,9 @@ const [isOpen, setIsOpen] = useState(false);
 
      <a className=" p-2 font-bold text-4xl" href='/'><img className='w-20' src="images/code-Viper-logo.svg" alt="" /></a>
      
- 
+ <div className='mq-nav-items'>
     
-      <div className=' text-white flex justify-evenly items-center gap-4 text-2xl mq-nav-items' >
+      <div className=' text-white flex justify-evenly items-center gap-4 text-2xl ' >
 
  <a href="/">Home</a>
 <a className='ul ' to="/services">Services</a>
@@ -41,6 +41,7 @@ const [isOpen, setIsOpen] = useState(false);
 <a className='ul ' to="/team">Team</a>
 <a className='ul ' to="/contact">Contact </a>
 <a className='ul ' to="/about">About us</a>
+</div>
 </div>
 <div
     className={`flex justify-center absolute top-16 right-1 bg-white w-32  font-semibold py-5 transition-transform duration-300 ease-in-out transform ${
