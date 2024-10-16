@@ -1,8 +1,5 @@
 import React ,{useState} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
-import { NavLink } from 'react-router-dom';
 const Navbar = ({ contactFormRef },{Serviceformref}) => {
 const [isOpen, setIsOpen] = useState(false);
 
@@ -45,10 +42,7 @@ const [isOpen, setIsOpen] = useState(false);
 <a className='ul ' to="/contact">Contact </a>
 <a className='ul ' to="/about">About us</a>
 </div>
-
-    
- 
-        <div
+<div
     className={`flex justify-center absolute top-16 right-1 bg-white w-32  font-semibold py-5 transition-transform duration-300 ease-in-out transform ${
         isOpen ? 'scale-100 opacity-100' : 'scale-95 opacity-0'
     }`}
