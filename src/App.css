@@ -1,11 +1,7 @@
 /* body{
   background-color: whitesmoke;
 }
-.logo-img{
-  height: 150px;
-  padding: 10px;
-  margin: 10px;
-}
+
 .App {
   position: relative;
 }
@@ -38,10 +34,7 @@ button {
   text-align: center;
 }
 
-.contactcard{
-    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.25);
-  
-}
+
 .card {
   transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   }
@@ -202,17 +195,7 @@ position: relative;
 body{
   background-color: whitesmoke;
 }
-.logo-img{
-  height: 150px;
-  padding: 10px;
-  margin: 10px;
-}
-.App {
-  position: relative;
-}
-.phone{
-  fill: white;
-}
+
 
 button {
   margin: 20px;
@@ -220,31 +203,8 @@ button {
 
 
 
-.custom-tooltip {
-  background-color: #333;
-  color: #fff;
-  border-radius: 4px;
-  padding: 8px;
-  font-size: 14px;
-  text-align: center;
-}
-
-.custom-tooltip::after {
-  border-top: 6px solid #333; /* Tooltip arrow color */
-}
 
 
-/* Optional: add a background color and some padding for better visibility */
-
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
-/* Portfolio.css */
-.contactcard{
-    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.25);
-    /* width: 80%; */
-}
 .card {
   transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   
@@ -269,30 +229,10 @@ button {
   fill: #fff;
   transform: scaleX(-1);
 }
-.w-card{
-  transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  
-
-}
-.w-card:hover {
-  transform: translateY(-5px); /* Adjust this value as needed */
-
-  
-   /* Tailwind's slate-50 */
-}
-.w-card:hover .svg{
-background-color: white;
-padding: 3px;
-border: 2px solid white;
-border-radius: 10px;
-}
 .svg{
     fill: #0077B5;
   }
-  
-    
-
-.serv{
+  .serv{
   width: 70%;
 }
 .serv img{
@@ -345,9 +285,8 @@ position: relative;
 
 
 .sticky-header{
-  position: sticky; /* Sticky positioning */
-    top: 0; /* Stick to the top */
-     /* Full width */
+  position: sticky; 
+    top: 0; 
     z-index: 1000;
 }
 .ft-icon{
@@ -356,7 +295,7 @@ position: relative;
 }
 .button-blue{
     
-  cursor: pointer;                 /* Pointer cursor on hover */
+  cursor: pointer;               
   transition: background-color 0.4s, color 0.4s;
 }
 
@@ -372,10 +311,7 @@ position: relative;
   transition: background-color 0.4s, color 0.4s,  box-shadow 0.4s; 
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
 }
-
-
 .hamburger {
-
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -384,13 +320,11 @@ position: relative;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-
 .hamburger .bar {
   height: 3px;
   background-color: white;
   transition: all 0.3s ease-in-out;
 }
-
 .hamburger.open .bar:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
@@ -411,10 +345,6 @@ position: relative;
 .services{
   color:rgb(64, 64, 64)
 }
-
-
-
-
 .facebook:hover{
   background-color: #3B5998;
   fill: white;
@@ -424,16 +354,12 @@ position: relative;
  background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
   fill: white;
 }
-
 .linkdin:hover{
-
   background-color: #0077B5;
-  
-  fill:white; 
+    fill:white; 
 }
 .t-linkdin{
   background-color:#0077B5;
- 
   fill:white;
 }
 .t-github{
@@ -441,8 +367,7 @@ position: relative;
   fill: white;
 }
 .t-facebook{
-
-  background-color: #3B5998;
+background-color: #3B5998;
   fill: white;
 
 }
@@ -471,8 +396,6 @@ position: relative;
   font-weight: 400;
   font-style: normal;
 }
-
-
 .logo{
   font-family: "Audiowide", sans-serif;
   font: 24px;
@@ -494,7 +417,6 @@ background-image: url('images/home-bottom-shape.png');
 
 }
 .container{
-  
 height: 80vh;
 margin: auto;
 z-index: 10;
@@ -503,25 +425,7 @@ color: white;
 width: 80%;
 border-radius: 10px;
 box-shadow: 5px 5px 5px 5px rgba(38, 38, 38, 0.25);
-
 }
-.cross{
-  fill:white;
-  cursor: pointer;
-
-}
-.cross:hover{
-  fill: orange;
-}
-.typeWriterText{
-  color: orange;
-  font-size: 30px;
-font-style:oblique;
-font-family: '''Times New Roman', Times, serif;
-}
-
-
-
 .icon {
   transition: transform 0.30s ease; 
   fill: rgb(255, 255, 255);
@@ -533,9 +437,9 @@ font-family: '''Times New Roman', Times, serif;
 }
 .card:hover .icon {
 
-/* Rotate icon on card hover */
+
 transform:rotateX(180deg);
-/* fill: blue; */
+
 fill:darkslateblue;
 }
 
@@ -543,7 +447,7 @@ fill:darkslateblue;
 .ul:hover{
   text-decoration: underline;
   
-text-underline-offset:8px ; /* Adjusts the distance of the underline */
+text-underline-offset:8px ; 
 text-decoration-color: #1e40af;
 transition: text-decoration-color 0.3s ; 
 cursor: pointer;
@@ -558,7 +462,7 @@ cursor: pointer;
   transform: translate(-50%, -50%);
   z-index: 2;
   opacity: 1;
-  display: none; /* Initially hide the icons */
+  display: none;
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -566,24 +470,24 @@ cursor: pointer;
   position: relative;
   z-index: 1;
   min-width: 22%;
-  background-color: rgba(255, 255, 255, 1); /* Initially fully opaque */
+  background-color: rgba(255, 255, 255, 1); 
   transition: background-color 0.3s ease-in-out;
 }
 
 .t-card:hover {
-  background-color: rgba(255, 255, 255, 0.5); /* Change background opacity on hover */
+  background-color: rgba(255, 255, 255, 0.5); 
 
 }
 
 .t-card:hover .t-icons {
   display: flex;
-  opacity: 1; /* Show icons and keep their opacity at 1 */
+  opacity: 1; 
  
 }
 .t-card img {
   transition: opacity 0.3s ease-in-out;
 }
 .t-card:hover img {
-  opacity: 0.5; /* Fade image but not the icons */
+  opacity: 0.5;
 }
 

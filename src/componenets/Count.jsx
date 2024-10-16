@@ -45,6 +45,7 @@ position: "relative",
     backgroundPosition: "center",
     backgroundAttachment:" fixed",
 };
+
   return (
     <div style={myStyle} className=' count mq-count  bg-slate-200 font-medium text-2xl text-white flex justify-around pb-20'>
       <div>

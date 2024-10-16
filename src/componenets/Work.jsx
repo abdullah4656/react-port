@@ -8,10 +8,8 @@ const Work = () => {
         <p className="text-center mx-auto text-xl font-medium px-4 sm:px-8 lg:px-20   text-gray-800">
           Explore our streamlined, efficient approach to project management and how it ensures your success every step of the way.
         </p>
-
-        {/* Responsive Grid for Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-20">
-          {/* Card 1 */}
+     
           <div className="h-full p-5 bg-slate-100 shadow-xl rounded-md text-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"

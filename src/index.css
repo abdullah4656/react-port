@@ -3,162 +3,152 @@
 @tailwind utilities;
 
 
-@media (max-width: 730px) {
-  .mq-nav-items{
-    display: none;
-    
-  } 
-  .ham-button{
-    align-items: center;
-  justify-content: end  ;
-    display: flex;
-   
+
+@media (max-width: 1004px) {
+  .mq-buttons {
+    width: 165px;
   }
-   }
-   @media (max-width: 783px) {
-    .mq-footer{
-      display: flex;
-      flex-direction: column;
-      padding: 5px;
-        }
-  .footer{
+}
+
+@media (max-width: 1000px) {
+  .mq-work-desc {
+    display: flex;
+    font-size: 12px;
+    justify-items: center;
+  }
+}
+
+
+
+
+@media (max-width: 951px) {
+  .mq-contact-form,
+  .mq-team-form,
+  .mq-main-form,
+  .mq-aboutme {
+    display: flex;
+    flex-direction: column;
+  }
+  .mq-team-img,
+  .mq-main-img {
+    width: 80%;
+  }
+}
+@media (max-width: 940px) {
+  .mq-nav-button {
+    display: none;
+  }
+  .sticky-header {
+    padding-right: 30px;
+    margin: 0;
+    width: 100%;
+  }
+}
+@media (max-width: 920px) {
+  .logo {
+    font-family: "Audiowide", sans-serif;
+    font-size: 50px;
+  }
+  .intro-desc {
+    font-size: 40px;
+  }
+}
+@media (max-width: 783px) {
+  .mq-footer {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .footer {
     height: 140vh;
-  }}
-  @media (max-width: 700px) {
-  .mq-count{
+  }
+}
+@media (max-width: 730px) {
+  .mq-nav-items {
+    display: none;
+  }
+  .ham-button {
+    align-items: center;
+    justify-content: end;
+    display: flex;
+  }
+}
+
+@media (max-width: 700px) {
+  .mq-count {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding: 3px;
   }
-  .mq-heading{
+  .mq-heading {
     font-size: 38px;
     line-height: 1;
   }
-  .mq-heading-port{
+  .mq-heading-port {
     font-size: 35px;
   }
-  }
-  @media (max-width: 920px) {
-    .logo{
-      font-family: "Audiowide", sans-serif;
-      font-size: 50px;
-    }
-    .intro-desc{
-      font-size: 40px;
-    }
-  }
-  @media (max-width: 1004px) {
-    .mq-buttons{
-    width: 165px;
-  
-  }
-  
-  }
-  @media (max-width: 1000px) {
-  .mq-work-desc{
-  display: flex;
-  font-size: 12px;
-  justify-items: center;
-  }}
-  @media (max-width: 543px) {
-  .footer{
+}
+@media (max-width: 543px) {
+  .footer {
     height: 150vh;
   }
-  .logo{
+  .logo {
     font-family: "Audiowide", sans-serif;
     font-size: 40px;
   }
-  .intro-desc{
+  .intro-desc {
     font-size: 30px;
-  }}
-  @media (max-width: 483px) {
-    .footer{
-      height: 180vh;
-    }
-    .logo{
-      font-family: "Audiowide", sans-serif;
-      font-size: 30px;
-    }
-    .intro-desc{
-      font-size: 22px;
-    }
   }
-    @media (max-width: 400px) {
-      .footer{
-        height: 190vh;
-      }
-      .logo{
-        font-family: "Audiowide", sans-serif;
-        font-size: 25px;
-      }
-      .intro-desc{
-        font-size: 18px;
-      }
-    }
-  @media (max-width:951px) {
-    .mq-contact-form{
-      display: flex;
-      flex-direction: column;
-    }
-    .mq-team-form{
-      display: flex;
-      flex-direction: column;
-    }
-    .mq-main-form{
-      display: flex;
-      flex-direction: column
-    }
-    .mq-aboutme{
-      display: flex;
-      flex-direction: column;
-    }
-  
-  .mq-team-img{
-    width: 80%;
-    
-    }
-    .mq-main-img{
-      width: 80%;
-      
-      }
+}
+
+@media (max-width: 515px) {
+  .portfolio-cards {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
-  @media (max-width: 940px) {
-    .mq-nav-button{
-      display: none;
-    }
-    .sticky-header{
-      padding-right:30px ;
-      margin: 0px;
-      width: 100%;
-    }
-    }
-    @media (max-width: 515px) {
-      .portfolio-cards{
-        display: flex;
-       margin: 5px;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-      }
-     
-      
-    .footer{
-      display: flex;
-     flex-direction: column;
-      gap: 10px;
-      justify-content: center;
-      align-items: center;
-       
-      }
-      .mqlogo{
-        display: block;
-      }
-      .nav-content{
-        display: inline;
-      }
-      .mqnavic{
-        display: none;
-      }
-    }
-    
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .mqlogo {
+    display: block;
+  }
+  .nav-content {
+    display: inline;
+  }
+  .mqnavic {
+    display: none;
+  }
+}
+
+@media (max-width: 483px) {
+  .footer {
+    height: 180vh;
+  }
+  .logo {
+    font-family: "Audiowide", sans-serif;
+    font-size: 30px;
+  }
+  .intro-desc {
+    font-size: 22px;
+  }
+}
+@media (max-width: 400px) {
+  .footer {
+    height: 190vh;
+  }
+  .logo {
+    font-family: "Audiowide", sans-serif;
+    font-size: 25px;
+  }
+  .intro-desc {
+    font-size: 18px;
+  }
+}
