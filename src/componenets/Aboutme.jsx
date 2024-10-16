@@ -12,15 +12,11 @@ const Aboutme = () => {
 
   return (
    <>
-   
-
-    <section className=" bg-gray-200 p-11">
-      
-            <div className=" flex mq-aboutme items-center p-3 pl-10 pr-10 ">
+      <section className=" bg-gray-200 p-11">
+              <div className=" flex mq-aboutme items-center p-3 pl-10 pr-10 ">
                 <div className="">
                     <div className="serv text-gray-800">
-
-                        <h2 className="text-4xl font-bold">Welcome to <span className="text-blue-600 pt-1 text-4xl font-serif italic logo">CodeViper</span>  Where Technology Meets Passion
+                  <h2 className="text-4xl font-bold">Welcome to <span className="text-blue-600 pt-1 text-4xl font-serif italic logo">CodeViper</span>  Where Technology Meets Passion
                         </h2>
                         <p className="pt-5 font-sans text-sm sm:text-base md:text-lg">
   At <span className="logo italic text-blue-600">Code Viper</span>, we're more than just tech enthusiasts – we're problem solvers with a passion for bringing bold ideas to life. Our goal? To help your business stand out in the digital age. Whether you're starting from scratch or enhancing what you already have, we provide IT solutions tailored specifically to your needs, guiding you through every step of the process.

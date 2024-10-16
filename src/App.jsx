@@ -6,7 +6,7 @@ import Portfolio from './componenets/Portfolio';
 import Services from './componenets/Services';
 import Aboutme from './componenets/Aboutme';
 import ContactForm from './componenets/ContactForm';
-// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import { useRef } from 'react';
 import Work from './componenets/Work';
 import Count from './componenets/Count';
@@ -14,7 +14,7 @@ import Team from './componenets/Team';
 import Loader from './componenets/Loader';
 import { useEffect } from 'react';
 import { useState } from 'react';
-// import Matter from './componenets/Matter';
+
 function App() {
   const [loading, setLoading] = useState(true);
 
