@@ -2,15 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Navbar from './Navbar';
 import Footer from './Footer';
-const Services = () => {
-      // color: #404040;
-      // font-size: 40px;
-      // font-weight: 800;
-      // margin: 10px 0 0 0;
+const Servicessep = () => {
+     
   return (
       <>
-    <section className="w-full  h-full">
-
+      <Navbar/>
+    <section className="w-full bg-gray-100 h-full">
     <h2 className='flex  justify-center text-5xl font-extrabold m-10' style={{ color: '#404040'}}>Our Services</h2>
       <div className="flex flex-wrap justify-start m-8 items-center bg-slate-200">
        
@@ -179,9 +176,9 @@ const Services = () => {
        
       </div>
     </section>
-  
+    <Footer/>
     </>
   );
 };
 
-export default Services;
+export default Servicessep;

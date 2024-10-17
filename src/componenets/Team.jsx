@@ -1,9 +1,10 @@
 import React from 'react';
-
-
+import Navbar from './Navbar';
+import Footer from './Footer';
 const Team = () => {
   return (
     <>
+    <Navbar/>
       <div className='bg-slate-200 '>
    <div className="bg-slate-200">
   <div className="team mq-team-form flex flex-col lg:flex-row justify-between items-center gap-5 p-10">
@@ -38,9 +39,7 @@ const Team = () => {
     />
   </div>
 
-  <h1 className="font-semibold text-3xl md:text-4xl lg:text-5xl mq-heading flex justify-center items-center p-5">
-    Our Team
-  </h1>
+  <h2 className='flex  justify-center text-5xl font-extrabold m-10' style={{ color: '#404040'}}>Our Team</h2>
 </div>
 
 
@@ -129,8 +128,9 @@ const Team = () => {
  </div>
     </div>
     </div>
-    
+    <Footer/>
     </>
+    
   )
 }
 

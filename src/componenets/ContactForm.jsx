@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-
+import Navbar from './Navbar';
+import Footer from './Footer';
+import background from "../assets/dot-bg.png";
 const ContactForm = () => {
   // State to manage loading, success, and error messages
   const [isLoading, setIsLoading] = useState(false);
@@ -45,6 +47,7 @@ const ContactForm = () => {
 
   return (
     <>
+    <Navbar/>
       <div>
         <div className="team flex justify-between items-center gap-5 p-5 mq-contact-form">
           <div>
@@ -63,7 +66,7 @@ const ContactForm = () => {
         </div>
 
         <div className="team">
-          <h3 className="flex justify-center text-5xl font-medium pt-10">Contact Us</h3>
+        <h2 className='flex  justify-center text-5xl font-extrabold m-10' style={{ color: '#404040'}}>Contact Us</h2>
 
           <div className="p-8 rounded-lg max-w-4xl mx-auto my-12">
             <h1 className="text-center text-gray-600 uppercase font-bold text-sm">Let's Talk</h1>
@@ -134,6 +137,10 @@ const ContactForm = () => {
 
       {/* Inline CSS for Loader Spinner */}
       <style jsx>{`
+          .team{
+         background-image: url(${background});
+  }
+        
         .loader {
           border: 4px solid rgba(255, 255, 255, 0.3);
           border-top: 4px solid #fff;
@@ -152,6 +159,7 @@ const ContactForm = () => {
           }
         }
       `}</style>
+      <Footer/>
     </>
   );
 };

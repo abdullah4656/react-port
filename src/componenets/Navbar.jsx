@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom"; // Import only if using React Router
+import { NavLink } from "react-router-dom"; // Import only if using React Router
 
 const Navbar = ({ contactFormRef, Serviceformref }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,15 +26,15 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
           <img className="w-20" src="images/code-Viper-logo.svg" alt="Logo" />
         </a>
 
-        {/* Navigation Links for larger screens */}
+     
         <div className="hidden md:flex">
           <div className="text-white flex justify-evenly items-center gap-4 text-2xl">
-            <a href="/">Home</a>
-            <a href="/services">Services</a> {/* Use <Link> if React Router */}
-            <a href="/portfolio">Portfolio</a>
-            <a href="/team">Team</a>
-            <a href="/contact">Contact</a>
-            <a href="/about">About Us</a>
+            <NavLink className={'underl'} to="/">Home</NavLink>
+            <NavLink className={'underl'} to="/services">Services</NavLink> 
+            <NavLink className={'underl'} to="/portfolio">Portfolio</NavLink>
+            <NavLink className={'underl'} to="/team">Team</NavLink>
+            <NavLink className={'underl'} to="/contact">Contact</NavLink>
+            <NavLink className={'underl'} to="/about">About Us</NavLink>
           </div>
         </div>
 
@@ -46,16 +46,16 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
         >
           <ul className="text-black">
             <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              <a href="/">Home</a>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              <a href="/services">Services</a>
+              <NavLink to="/services">Services</NavLink>
             </li>
             <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              <a href="/about">About</a>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              <a href="/contact">Contact</a>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
           </ul>
         </div>
@@ -108,6 +108,28 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
           position: relative;
           top: -8px;
         }
+   
+    .underl {
+    position: relative;
+    display: inline-block;  /* Ensures the underline fits properly */
+}
+
+.underl::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;  /* Adjust the height as needed */
+    left: 0;
+    bottom: -2px;  /* Adjust the offset distance as needed */
+    background-color: blue;
+    transition: width 0.3s ease;
+    bottom: -5px
+}
+
+.underl:hover::after {
+    width: 100%;
+}
+
       `}</style>
     </>
   );

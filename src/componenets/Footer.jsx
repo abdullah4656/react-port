@@ -51,7 +51,7 @@ const Footer = () => {
          background-image: url(${background});
   background-color: #0077B5 ;
   }
-        }
+        
       `}</style>
     </footer>
   );
