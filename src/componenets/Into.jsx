@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 const Intro = () => {
   return (
     <>
-      <div className='intro-cont p-2 mq-main-form'>
+      <div className='introcont p-2 mq-main-form'>
         <div className='p-8'>
           <h2>
             <strong className='font-serif text-6xl text-blue-400 italic logo'>

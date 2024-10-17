@@ -21,7 +21,7 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
     <>
       <nav
         className={`flex sticky-header justify-between items-center bg-blue-500 rounded-md transition-all duration-300 ${
-          isOpen ? "m-0" : "m-5"
+          isOpen ? "m-0" : "m-0"
         }`}
       >
         <a className="p-2 font-bold text-4xl" href="/">
