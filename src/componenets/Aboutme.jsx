@@ -44,7 +44,24 @@ const Aboutme = () => {
         
     </section>
 
+    <style jsx>{`
+       
+    .mq-buttons {
+    width: 165px;
+  }
+  .serv{
+  width: 70%;
+}
+.serv img{
+  height: 0vh;
+  width: 50 ;
 
+}
+.logo {
+    font-family: "Audiowide", sans-serif;
+    
+  }
+      `}</style>
    </>
   )
 }
