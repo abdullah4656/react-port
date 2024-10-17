@@ -1,5 +1,5 @@
 import React from 'react';
-
+import background from "../assets/dot-bg.png";
 const Footer = () => {
   return (
     <footer className='footer  text-white p-20'>
@@ -45,6 +45,14 @@ const Footer = () => {
       <div className='text-center mt-8'>
         <p className='font-semibold text-lg'> Code Viper <span></span>All rights reserved &copy; {new Date().getFullYear()}</p>
       </div>
+      <style jsx>{`
+        
+          .footer{
+         background-image: url(${background});
+  background-color: #0077B5 ;
+  }
+        }
+      `}</style>
     </footer>
   );
 };

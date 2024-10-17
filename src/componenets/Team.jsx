@@ -5,25 +5,44 @@ const Team = () => {
   return (
     <>
       <div className='bg-slate-200 '>
-        <div className='team mq-team-form flex justify-between   items-center gap-5 p-10'>
-          <div>
-            <h1 className='text-blue-600 font-semibold text-5xl p-5'>
-              Meet Our Incredible Leaders
-            </h1>
-            <p className='text-xl p-5 font-sans text-gray-600 font-medium'>
-              Our team is made of experts who love what they do. We work together to create great IT solutions. Our leaders guide us to be the best and make our clients happy.
-            </p>
-            <div className='flex gap-10 items-start'>
-            <a className='text-blue-600 hover:bg-blue-600 mq-buttons hover:text-white w-1/6 h-12 flex items-center justify-center  text-lg font-sans font-bold  rounded-md bg-white button-white ' href="/contactus#contactus">Contact Us<span></span></a>
-            <a className='bg-blue-600 hover:bg-blue-800 w-1/6 flex mq-buttons items-center justify-center h-12 text-lg font-sans font-bold  rounded-md text-white button-blue ' href="tel:+923035313249">Call Now<span></span></a>
-            </div>
-          </div>
-          <img className='mq-team-img w-1/4' src='images/team.svg' alt='' />
-        </div>
+   <div className="bg-slate-200">
+  <div className="team mq-team-form flex flex-col lg:flex-row justify-between items-center gap-5 p-10">
+    <div className="text-center lg:text-left">
+      <h1 className="text-blue-600 font-semibold text-3xl md:text-4xl lg:text-5xl p-5">
+        Meet Our Incredible Leaders
+      </h1>
+      <p className="text-lg md:text-xl p-5 font-sans text-gray-600 font-medium">
+        Our team is made of experts who love what they do. We work together to
+        create great IT solutions. Our leaders guide us to be the best and make
+        our clients happy.
+      </p>
+      <div className="flex flex-col sm:flex-row gap-5 items-center sm:items-start mt-5">
+        <a
+          className="text-blue-600 hover:bg-blue-600 mq-buttons hover:text-white w-full sm:w-1/3 h-12 flex items-center justify-center text-lg font-sans font-bold rounded-md bg-white button-white"
+          href="/contactus#contactus"
+        >
+          Contact Us<span></span>
+        </a>
+        <a
+          className="bg-blue-600 hover:bg-blue-800 w-full sm:w-1/3 h-12 flex mq-buttons items-center justify-center text-lg font-sans font-bold rounded-md text-white button-blue"
+          href="tel:+923035313249"
+        >
+          Call Now<span></span>
+        </a>
+      </div>
+    </div>
+    <img
+      className="mq-team-img w-full sm:w-2/3 md:w-1/2 lg:w-1/4 mt-8 lg:mt-0"
+      src="images/team.svg"
+      alt="Team"
+    />
+  </div>
 
-        <h1 className='font-semibold text-5xl mq-heading flex justify-center items-center p-5'>
-               Our Team 
-            </h1>
+  <h1 className="font-semibold text-3xl md:text-4xl lg:text-5xl mq-heading flex justify-center items-center p-5">
+    Our Team
+  </h1>
+</div>
+
 
         <div className='flex flex-wrap justify-center items-center gap-4 p-20'>
           <div className=' p-5 bg-slate-100 shadow-xl t-card border-2 border-gray-400 rounded-md'>
