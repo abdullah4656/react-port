@@ -28,14 +28,14 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
 
      
         <div className="hidden md:flex">
-          {/* <div className="text-white flex justify-evenly items-center gap-4 text-2xl">
+          <div className="text-white flex justify-evenly items-center gap-4 text-2xl">
             <NavLink className={'underl'} to="/">Home</NavLink>
             <NavLink className={'underl'} to="/services">Services</NavLink> 
             <NavLink className={'underl'} to="/portfolio">Portfolio</NavLink>
             <NavLink className={'underl'} to="/team">Team</NavLink>
             <NavLink className={'underl'} to="/contact">Contact</NavLink>
             <NavLink className={'underl'} to="/about">About Us</NavLink>
-          </div> */}
+          </div>
         </div>
 
         {/* Mobile Menu */}
@@ -44,7 +44,7 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
             isOpen ? "scale-100 opacity-100" : "scale-95 opacity-0"
           } md:hidden`}
         >
-          {/* <ul className="text-black">
+          <ul className="text-black">
             <li  onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
               <NavLink to="/">Home</NavLink>
             </li>
@@ -63,7 +63,7 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
             <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
               <NavLink to="/about">About US</NavLink>
             </li>
-          </ul> */}
+          </ul>
         </div>
 
         <button
