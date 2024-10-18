@@ -17,7 +17,7 @@ const Aboutussep = lazy(() => import("./componenets/Aboutussep.jsx"));
 const routerr = createBrowserRouter(
   [
     {
-      path: "/",
+      path: "/react-port",
       element: (
         <Suspense fallback={<Loader />}>
           <App />
@@ -70,7 +70,7 @@ const routerr = createBrowserRouter(
   }
 );
 
-// Render the app with RouterProvider
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={routerr}>
