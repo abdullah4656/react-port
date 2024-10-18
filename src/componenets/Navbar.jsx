@@ -20,10 +20,10 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
   return (
     <>
       <nav
-        className='flex sticky-header justify-between items-center bg-blue-500 rounded-md transition-all duration-300 '
+        className='flex sticky-header justify-between items-center bg-blue-800  transition-all duration-300 '
       >
         <a className="p-2 font-bold text-4xl" href="/">
-          <img className="w-20" src="images/code-Viper-logo.svg" alt="Logo" />
+          <img className="w-20" src="images/logoo.png" alt="Logo" />
         </a>
 
      
@@ -45,17 +45,23 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
           } md:hidden`}
         >
           <ul className="text-black">
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+            <li  onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
               <NavLink to="/">Home</NavLink>
             </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+            <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
               <NavLink to="/services">Services</NavLink>
             </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              <NavLink to="/about">About</NavLink>
+            <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+              <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
-            <li className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+            <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+              <NavLink to="/contact">Team</NavLink>
+            </li>
+            <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
               <NavLink to="/contact">Contact</NavLink>
+            </li>
+            <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
+              <NavLink to="/about">About US</NavLink>
             </li>
           </ul>
         </div>

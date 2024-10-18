@@ -85,8 +85,14 @@ const Intro = () => {
           right: 10%;
           top: 16%;
           z-index: 1;
-          -webkit-animation: animationFramesOne 20s infinite linear;
-          animation: animationFramesOne 20s infinite linear;
+          -webkit-animation-name: rotateMe;
+          animation-name: rotateMe;
+          -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+          -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+          -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
         }
 
         .home-shape-animation .shape-2 {
@@ -147,7 +153,7 @@ const Intro = () => {
           position: absolute;
           left: 50%;
           top: 15%;
-          z-index: 2;;
+          z-index: 2;
           -webkit-animation: moveScale 3s linear infinite;
           animation: moveScale 3s linear infinite;
         }

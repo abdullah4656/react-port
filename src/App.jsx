@@ -33,6 +33,7 @@ function App() {
         <Loader />
       ) : (
         <div className="bg-slate-300">
+        
           <Navbar />
           <Into />
           <div className="bg-gray-50 ">

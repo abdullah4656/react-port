@@ -1,42 +1,69 @@
-import { StrictMode } from "react";
+import { StrictMode, Suspense, lazy } from "react";
 import { createRoot } from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import App from "./App.jsx";
+import Loader from "./componenets/Loader.jsx"; 
 import "./index.css";
-import Team from "./componenets/Team.jsx";
-import ContactForm from "./componenets/ContactForm.jsx";
-import Servicessep from "./componenets/Servicessep.jsx";
-
-import Portfoliosep from "./componenets/Portfoliosep.jsx";
-import Aboutussep from "./componenets/Aboutussep.jsx";
+import ScrolltoTop from "./componenets/ScrolltoTop.jsx"; 
+const App = lazy(() => import("./App.jsx"));
+const Team = lazy(() => import("./componenets/Team.jsx"));
+const ContactForm = lazy(() => import("./componenets/ContactForm.jsx"));
+const Servicessep = lazy(() => import("./componenets/Servicessep.jsx"));
+const Portfoliosep = lazy(() => import("./componenets/Portfoliosep.jsx"));
+const Aboutussep = lazy(() => import("./componenets/Aboutussep.jsx"));
 const routerr = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: (
+      <Suspense fallback={<Loader />}>
+        <App />
+      </Suspense>
+    ),
   },
   {
     path: "team",
-    element: <Team />,
+    element: (
+      <Suspense fallback={<Loader />}>
+        <Team />
+      </Suspense>
+    ),
   },
   {
     path: "contact",
-    element: <ContactForm />,
+    element: (
+      <Suspense fallback={<Loader />}>
+        <ContactForm />
+      </Suspense>
+    ),
   },
   {
     path: "services",
-    element: <Servicessep />,
+    element: (
+      <Suspense fallback={<Loader />}>
+        <Servicessep />
+      </Suspense>
+    ),
   },
   {
     path: "about",
-    element: <Aboutussep />,
+    element: (
+      <Suspense fallback={<Loader />}>
+        <Aboutussep />
+      </Suspense>
+    ),
   },
   {
     path: "portfolio",
-    element: <Portfoliosep />,
+    element: (
+      <Suspense fallback={<Loader />}>
+        <Portfoliosep />
+      </Suspense>
+    ),
   },
 ]);
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={routerr} />{" "}
+    <RouterProvider router={routerr}>
+      <ScrolltoTop /> 
+    </RouterProvider>
   </StrictMode>
 );

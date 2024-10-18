@@ -41,12 +41,11 @@ const Aboutussep = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-5 pt-7 justify-center lg:justify-start">
-                <a
-                  className="text-blue-600 hover:bg-blue-600 hover:text-white w-full sm:w-1/3 h-12 flex items-center justify-center text-lg font-bold rounded-md bg-white"
-                  href="/contactus#contactus"
-                >
-                  Contact Us
-                </a>
+              <a class="text-blue-600 button mq-buttons w-1/3 h-12 flex items-center justify-center text-lg font-sans font-bold rounded-md button bg-white button-white" href="">
+    <span>Contact Us</span>
+</a>
+      
+
                 <a
                   className="bg-blue-600 hover:bg-blue-800 w-full sm:w-1/3 flex items-center justify-center h-12 text-lg font-bold rounded-md text-white"
                   href="tel:+923035313249"
@@ -75,6 +74,47 @@ const Aboutussep = () => {
   font-family: "Audiowide", sans-serif;
   
  }
+  
+       .button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    width:30%;
+    cursor: pointer;
+    overflow: hidden;  
+    text-align: center;
+    /* Text color matching 'text-blue-600' */
+    background-color: white;  /* Initial background color */
+    border-radius: 8px;  /* Matches 'rounded-md' */
+    transition: color 0.3s ease;  /* Text color transition */
+}
+
+.button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+      background-color: #1e40af;/* Background fill color (same as 'text-blue-600') */
+    transition: width 0.4s ease;
+    z-index: 0;  /* Ensures background is behind the text */
+}
+
+.button:hover::before {
+    width: 100%;  /* Expands to cover the entire button */
+}
+
+.button:hover {
+    color: white;  /* Changes text color to white */
+}
+
+.button span {
+    position: relative;
+    z-index: 1;  /* Keeps text above the expanding background */
+}
+
+
       `}</style>
       </section>
 <Footer/>

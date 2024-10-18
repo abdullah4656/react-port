@@ -7,9 +7,9 @@ const Servicessep = () => {
   return (
       <>
       <Navbar/>
-    <section className="w-full bg-gray-100 h-full">
+    <section className="w-full  h-full">
     <h2 className='flex  justify-center text-5xl font-extrabold m-10' style={{ color: '#404040'}}>Our Services</h2>
-      <div className="flex flex-wrap justify-start m-8 items-center bg-slate-200">
+      <div className="flex bg-gray-50 flex-wrap justify-start m-8 items-center ">
        
           <div className="w-full sm:w-1/2 lg:w-1/3 p-4 ">
             <div className="h-full p-8  bg-slate-100  shadow-xl card rounded-md">

@@ -49,7 +49,7 @@ const Footer = () => {
         
           .footer{
          background-image: url(${background});
-  background-color: #0077B5 ;
+  background-color: #1e3a8a;
   }
         
       `}</style>

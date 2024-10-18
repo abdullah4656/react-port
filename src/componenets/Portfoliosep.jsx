@@ -5,9 +5,9 @@ const Portfoliosep = () => {
   return (
     <>
       <Navbar />
-      <section className="w-full psec">
+      <section className="w-full  psec">
         <h2
-          className="flex  justify-center text-5xl font-extrabold m-10"
+          className="flex items-center  justify-center text-5xl font-extrabold m-10"
           style={{ color: "#404040" }}
         >
           Our Portfolio

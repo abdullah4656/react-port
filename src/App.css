@@ -198,7 +198,7 @@ button {
   }
 .card:hover {
   transform: translateY(-10px); 
-  background-color: rgb(96 165 250 );
+  background-color: rgb(32, 88, 157);
 
   
   color:white;
@@ -221,6 +221,9 @@ button {
   height: 100px;
   width: 300px;
  
+}
+.t-icon{
+  opacity: 0;
 }
 
 /* 
@@ -256,11 +259,7 @@ position: relative;
 .team{
   background-image: url('images/dot-bg.png');
 }
-.t-img{
-  width: 200px;
-  height: 40vh;
-}
- 
+
 
 
 .sticky-header{
@@ -401,19 +400,7 @@ text-decoration-color: #1e40af;
 transition: text-decoration-color 0.3s ; 
 cursor: pointer;
 }
-.t-icon{
-  cursor: pointer;
-}
-.t-icons {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  opacity: 1;
-  display: none;
-  transition: opacity 0.3s ease-in-out;
-}
+
 
 .t-card {
   position: relative;
@@ -428,11 +415,7 @@ cursor: pointer;
 
 }
 
-.t-card:hover .t-icons {
-  display: flex;
-  opacity: 1; 
- 
-}
+
 .t-card img {
   transition: opacity 0.3s ease-in-out;
 }
