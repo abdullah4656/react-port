@@ -117,7 +117,7 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
    
     .underl {
     position: relative;
-    display: inline-block;  /* Ensures the underline fits properly */
+    display: inline-block; 
 }
 
 .underl::after {
@@ -127,7 +127,7 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
     height: 2px;  /* Adjust the height as needed */
     left: 0;
     bottom: -2px;  /* Adjust the offset distance as needed */
-    background-color: blue;
+    background-color: white;
     transition: width 0.3s ease;
     bottom: -5px
 }

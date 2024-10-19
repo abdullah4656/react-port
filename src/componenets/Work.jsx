@@ -9,9 +9,9 @@ const Work = () => {
         <p className="text-center mx-auto text-xl font-medium px-4 sm:px-8 lg:px-20   text-gray-800">
           Explore our streamlined, efficient approach to project management and how it ensures your success every step of the way.
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-20">
+        <div className="grid  grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 p-20">
      
-          <div className="h-full p-5 bg-slate-100 shadow-xl rounded-md text-black">
+          <div className="h-full transition-transform cards p-5 bg-slate-100 shadow-xl rounded-md text-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="70"
@@ -42,7 +42,7 @@ const Work = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="h-full p-5 bg-slate-100 shadow-xl rounded-md text-black">
+          <div className="h-full p-5 transition-transform cards  bg-slate-100 shadow-xl rounded-md text-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="70"
@@ -72,7 +72,7 @@ const Work = () => {
           </div>
 
           {/* Card 3 */}
-          <div className="h-full p-5 bg-slate-100 shadow-xl rounded-md text-black">
+          <div className="h-full p-5 transition-transform cards  bg-slate-100 shadow-xl rounded-md text-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="70"
@@ -102,7 +102,7 @@ const Work = () => {
           </div>
 
           {/* Card 4 */}
-          <div className="h-full p-5 bg-slate-100 shadow-xl rounded-md text-black">
+          <div className="h-full transition-transform cards  p-5 bg-slate-100 shadow-xl rounded-md text-black">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="70"
@@ -132,6 +132,20 @@ const Work = () => {
           </div>
         </div>
       </div>
+      <style jsx>
+{
+  `
+
+.cards:hover  {
+
+  transform: translateY(-5px); 
+  transform: translateY(-5px); 
+
+}
+  `
+}
+
+      </style>
     </>
   );
 };

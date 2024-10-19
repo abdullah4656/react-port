@@ -179,7 +179,558 @@ const Services = () => {
        
       </div>
     </section>
+  <style jsx>{`
+
+.t-card {
+      position: relative;
+      z-index: 1;
+      min-width: 22%;
+      background-color: rgba(255, 255, 255, 1); 
+      transition: background-color 0.3s ease-in-out;
+    }
+    
+    .t-card:hover {
+      background-color: rgba(255, 255, 255, 0.5); 
+    
+    }
+    
+    
+    .t-card img {
+      transition: opacity 0.3s ease-in-out;
+    }
+    .t-card:hover img {
+      opacity: 0.5;
+    }
+    .card {
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+.card:hover {
+  transform: translateY(-10px); 
+  background-color: rgb(32, 88, 157);
+
   
+  color:white;
+}
+  
+
+.services{
+  color:rgb(64, 64, 64)
+}
+.facebook:hover{
+  background-color: #3B5998;
+  fill: white;
+  
+}
+.insta:hover{
+ background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+  fill: white;
+}
+.linkdin:hover{
+  background-color: #0077B5;
+    fill:white; 
+}
+.t-linkdin{
+  background-color:#0077B5;
+  fill:white;
+}
+.t-github{
+  background-color:#181717;
+  fill: white;
+}
+.t-facebook{
+background-color: #3B5998;
+  fill: white;
+
+}
+.github:hover{
+  background-color:#181717;
+  fill: white;
+}
+.twitter:hover{
+  fill: white;
+  background-color:  #181717;
+}
+.whatsapp:hover{
+  fill: white;
+  background-color: #25D366; 
+}
+.t-whatsapp{
+  fill: white;
+  background-color: #25D366; 
+}
+.t-insta{
+  background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+  fill: white;
+}
+.stylish-regular {
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo{
+  font-family: "Audiowide", sans-serif;
+  font: 24px;
+}
+.getin{
+  background-color: rgb(221, 149, 16);
+  color: black;
+}
+.getin:hover{
+  background-color: orange;
+  
+}
+.introcont{
+  display: flex;
+  align-items: center;
+justify-content: space-evenly;
+gap: 20px;
+background-image: url('images/home-bottom-shape.png');
+
+}
+.container{
+height: 80vh;
+margin: auto;
+z-index: 10;
+background-color:rgb(62, 59, 59);
+color: white;
+width: 80%;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px rgba(38, 38, 38, 0.25);
+}
+.icon {
+  transition: transform 0.30s ease; 
+  fill: rgb(255, 255, 255);
+
+  
+}
+.iconn{
+  fill: #25D366;
+}
+.card:hover .icon {
+
+
+transform:rotateX(180deg);
+
+fill:darkslateblue;
+}
+
+
+.ul:hover{
+  text-decoration: underline;
+  
+text-underline-offset:8px ; 
+text-decoration-color: #1e40af;
+transition: text-decoration-color 0.3s ; 
+cursor: pointer;
+}
+/* body{
+  background-color: whitesmoke;
+}
+
+.App {
+  position: relative;
+}
+.phone{
+  fill: white;
+}
+
+button {
+  margin: 20px;
+}
+
+
+
+.custom-tooltip {
+  background-color: #333;
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.custom-tooltip::after {
+  border-top: 6px solid #333; 
+}
+
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+.card {
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+
+
+.card:hover {
+  transform: translateY(-10px); 
+  background-color: rgb(96 165 250 );
+
+  
+  color:white; 
+}
+.card:hover p{
+  color: white;
+}
+.card:hover h3{
+  color: white;
+}
+.card:hover .svg{
+  fill: #fff;
+  transform: scaleX(-1);
+}
+.w-card{
+  transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  
+
+}
+.w-card:hover {
+  transform: translateY(-5px); 
+}
+.w-card:hover .svg{
+background-color: white;
+padding: 3px;
+border: 2px solid white;
+border-radius: 10px;
+}
+.svg{
+    fill: #0077B5;
+  }
+  
+    
+
+.serv{
+  width: 70%;
+}
+.serv img{
+  height: 0vh;
+  width: 50 ;
+
+}
+.psec img{
+  height: 100px;
+  width: 300px;
+}
+
+.count{
+width: 100%;
+height: 50vh;
+position: relative;
+    z-index: 1;
+    padding: 120px 0;
+    text-align: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.count::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #1f1f54;
+}
+.footer{
+  background-image: url('images/dot-bg.png');
+  background-color: #0077B5 ;
+  }
+.team{
+  background-image: url('images/dot-bg.png');
+}
+.t-img{
+  width: 200px;
+  height: 40vh;
+}
+ 
+
+
+.sticky-header{
+  position: sticky; 
+    top: 0; 
+    z-index: 1000;
+}
+.ft-icon{
+  
+  fill: #0077B5;
+}
+.button-blue{
+    
+  cursor: pointer;     
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.button-white:hover{
+
+  border: none;
+
+
+}
+.button-white {
+  
+  cursor: pointer;               
+  transition: background-color 0.4s, color 0.4s,  box-shadow 0.4s; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.hamburger {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger .bar {
+  height: 3px;
+  background-color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+.ham-button{
+  display: none;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button {
+  margin: 20px;
+}
+.card {
+  transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  }
+.card:hover {
+  transform: translateY(-10px); 
+  background-color: rgb(32, 88, 157);
+
+  
+  color:white;
+}
+.card:hover p{
+  color: white;
+}
+.card:hover h3{
+  color: white;
+}
+.card:hover .svg{
+  fill: #fff;
+  transform: scaleX(-1);
+}
+.svg{
+    fill: #0077B5;
+  }
+ 
+.psec img{
+  height: 100px;
+  width: 300px;
+ 
+}
+.t-icon{
+  opacity: 0;
+}
+
+/* 
+.count{
+
+width: 100%;
+height: 50vh;
+position: relative;
+    z-index: 1;
+    padding: 120px 0;
+    text-align: center;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.count::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-color: #1f1f54;
+} */
+/* .footer{
+  background-image: url('images/dot-bg.png');
+  background-color: #0077B5 ;
+  } */
+.team{
+  background-image: url('images/dot-bg.png');
+}
+
+
+
+.sticky-header{
+  position: sticky; 
+    top: 0; 
+    z-index: 1000;
+}
+.ft-icon{
+  
+  fill: #0077B5;
+}
+.button-blue{
+    
+  cursor: pointer;               
+  transition: background-color 0.4s, color 0.4s;
+}
+
+.button-white:hover{
+
+  border: none;
+
+
+}
+.button-white {
+  
+  cursor: pointer;               
+  transition: background-color 0.4s, color 0.4s,  box-shadow 0.4s; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.services{
+  color:rgb(64, 64, 64)
+}
+.facebook:hover{
+  background-color: #3B5998;
+  fill: white;
+  
+}
+.insta:hover{
+ background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+  fill: white;
+}
+.linkdin:hover{
+  background-color: #0077B5;
+    fill:white; 
+}
+.t-linkdin{
+  background-color:#0077B5;
+  fill:white;
+}
+.t-github{
+  background-color:#181717;
+  fill: white;
+}
+.t-facebook{
+background-color: #3B5998;
+  fill: white;
+
+}
+.github:hover{
+  background-color:#181717;
+  fill: white;
+}
+.twitter:hover{
+  fill: white;
+  background-color:  #181717;
+}
+.whatsapp:hover{
+  fill: white;
+  background-color: #25D366; 
+}
+.t-whatsapp{
+  fill: white;
+  background-color: #25D366; 
+}
+.t-insta{
+  background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+  fill: white;
+}
+.stylish-regular {
+  font-family: "Stylish", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.logo{
+  font-family: "Audiowide", sans-serif;
+  font: 24px;
+}
+.getin{
+  background-color: rgb(221, 149, 16);
+  color: black;
+}
+.getin:hover{
+  background-color: orange;
+  
+}
+.introcont{
+  display: flex;
+  align-items: center;
+justify-content: space-evenly;
+gap: 20px;
+background-image: url('images/home-bottom-shape.png');
+
+}
+.container{
+height: 80vh;
+margin: auto;
+z-index: 10;
+background-color:rgb(62, 59, 59);
+color: white;
+width: 80%;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px rgba(38, 38, 38, 0.25);
+}
+.icon {
+  transition: transform 0.30s ease; 
+  fill: rgb(255, 255, 255);
+
+  
+}
+.iconn{
+  fill: #25D366;
+}
+.card:hover .icon {
+
+
+transform:rotateX(180deg);
+
+fill:darkslateblue;
+}
+
+
+.ul:hover{
+  text-decoration: underline;
+  
+text-underline-offset:8px ; 
+text-decoration-color: #1e40af;
+transition: text-decoration-color 0.3s ; 
+cursor: pointer;
+}
+
+
+
+
+  `}
+  </style>
     </>
   );
 };

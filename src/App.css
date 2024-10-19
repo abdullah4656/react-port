@@ -198,7 +198,7 @@ button {
   }
 .card:hover {
   transform: translateY(-10px); 
-  background-color: rgb(32, 88, 157);
+  background-color: rgb(96 165 250 );
 
   
   color:white;
@@ -217,7 +217,7 @@ button {
     fill: #0077B5;
   }
  
-.psec img{
+.psec im{
   height: 100px;
   width: 300px;
  
@@ -339,7 +339,7 @@ background-color: #3B5998;
   background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
   fill: white;
 }
-.stylish-regular {
+.stylish-regular{
   font-family: "Stylish", serif;
   font-weight: 400;
   font-style: normal;

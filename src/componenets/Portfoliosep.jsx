@@ -34,6 +34,18 @@ const Portfoliosep = () => {
         </div>
       </section>
       <Footer />
+<style jsx>
+  {
+    `
+    .psec img{
+      height: 100px;
+          width: 300px;
+    
+    }
+    `
+  }
+</style>
+
     </>
   );
 };

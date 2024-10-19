@@ -50,6 +50,38 @@ const Footer = () => {
           .footer{
          background-image: url(${background});
   background-color: #1e3a8a;
+  .ft-icon{
+  
+  fill: #0077B5;
+}
+  
+.github:hover{
+  background-color:#181717;
+  fill: white;
+}
+.twitter:hover{
+  fill: white;
+  background-color:  #181717;
+}
+.whatsapp:hover{
+  fill: white;
+  background-color: #25D366; 
+}
+
+
+.facebook:hover{
+  background-color: #3B5998;
+  fill: white;
+  
+}
+.insta:hover{
+ background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+  fill: white;
+}
+.linkdin:hover{
+  background-color: #0077B5;
+    fill:white; 
+}
   }
         
       `}</style>
