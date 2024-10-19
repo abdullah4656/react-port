@@ -1,9 +1,8 @@
 import { StrictMode, Suspense, lazy } from "react";
 import { createRoot } from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import Loader from "./componenets/Loader.jsx";
 import "./index.css";
-import ScrolltoTop from "./componenets/ScrolltoTop.jsx";
 
 const App = lazy(() => import("./App.jsx"));
 const Team = lazy(() => import("./componenets/Team.jsx"));
@@ -12,7 +11,7 @@ const Servicessep = lazy(() => import("./componenets/Servicessep.jsx"));
 const Portfoliosep = lazy(() => import("./componenets/Portfoliosep.jsx"));
 const Aboutussep = lazy(() => import("./componenets/Aboutussep.jsx"));
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   [
     {
       path: "/",
@@ -63,13 +62,11 @@ const router = createBrowserRouter(
       ),
     },
   ],
-  { basename: import.meta.env.BASE_URL }
+
 );
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider
-      basename={import.meta.env.BASE_URL}
-      router={router}
-    ></RouterProvider>
+    <RouterProvider router={router} />
   </StrictMode>
 );
