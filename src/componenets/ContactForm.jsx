@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import background from "../assets/dot-bg.png";
+import { NavLink } from 'react-router-dom';
 const ContactForm = () => {
   // State to manage loading, success, and error messages
   const [isLoading, setIsLoading] = useState(false);
@@ -58,10 +59,13 @@ const ContactForm = () => {
               Discuss your ideas, projects, and collaborations with us. Let's explore how CodeEssence can assist you in achieving your goals.
             </p>
             <div className="flex gap-10 items-start">
-            <a class="text-blue-600 button mq-buttons w-1/3 h-12 flex items-center justify-center text-lg font-sans font-bold rounded-md button bg-white button-white" href="">
-    <span>Contact Us</span>
-</a>
-            <a className='bg-blue-600 mq-buttons hover:bg-blue-800 w-1/3 flex items-center justify-center h-12 text-lg font-sans font-bold  rounded-md text-white button-blue ' href="tel:+923035313249">Call Now<span></span></a>
+            <NavLink
+                  to="/about"
+                  className="text-blue-600 button mq-buttons w-1/3 h-12 flex items-center justify-center text-lg font-sans font-bold rounded-md bg-white button-white"
+                >
+                  <span>About us</span>
+                </NavLink>
+            <a  className='bg-blue-600 mq-buttons hover:bg-blue-800 w-1/3 flex items-center justify-center h-12 text-lg font-sans font-bold  rounded-md text-white button-blue ' target="_blank"  href="tel:+923186840896">Call Now<span></span></a>
             </div>
           </div>
           

@@ -1,6 +1,6 @@
 import React from "react";
 
-
+import { NavLink } from "react-router-dom";
 const Aboutus = () => {
   return (
     <>
@@ -40,14 +40,16 @@ const Aboutus = () => {
               </p>
 
               <div className="flex flex-row   gap-5 pt-7 justify-center lg:justify-start">
-              <a class="text-blue-600 button mq-buttons w-1/3 h-12 flex items-center justify-center text-lg font-sans font-bold rounded-md button bg-white button-white" href="">
-    <span>Contact Us</span>
-</a>
-      
+              <NavLink
+                  to="/contact"
+                  className="text-blue-600 button  sm:w-1/3 mq-buttons  h-12 flex items-center justify-center  font-sans font-bold rounded-md bg-white button-white"
+                >
+                  <span >Contact us</span>
+                </NavLink>
 
                 <a
-                  className="bg-blue-600 hover:bg-blue-800 w-2/5 flex items-center justify-center h-12 text-lg font-bold rounded-md text-white"
-                  href="tel:+923035313249"
+                  className="bg-blue-600 hover:bg-blue-800 w-1/2 sm:w-1/3  flex items-center justify-center h-12 text-lg font-bold rounded-md text-white"
+                  target="_blank"  href="tel:+923186840896"
                 >
                   Call Now
                 </a>
@@ -78,7 +80,7 @@ const Aboutus = () => {
     display: inline-block;
     padding: 10px 20px;
     cursor: pointer;
-    width:40%;
+    
     overflow: hidden;  
     text-align: center;
     /* Text color matching 'text-blue-600' */

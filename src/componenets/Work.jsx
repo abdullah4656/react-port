@@ -4,7 +4,7 @@ const Work = () => {
   return (
     <>
       <div className="bg-slate-900 text-white">
-      <h2 className='flex  justify-center items-center text-5xl font-extrabold m-10' style={{ color: '#404040'}}> How We  Work</h2>
+      <h2 className='flex justify-center text-4xl sm:text-4xl md:text-5xl m-10 font-extrabold' style={{ color: '#404040' }}>How We Work</h2>
 
         <p className="text-center mx-auto text-xl font-medium px-4 sm:px-8 lg:px-20   text-gray-800">
           Explore our streamlined, efficient approach to project management and how it ensures your success every step of the way.

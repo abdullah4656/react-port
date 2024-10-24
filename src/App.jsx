@@ -7,13 +7,14 @@ import Services from "./componenets/Services";
 import Aboutme from "./componenets/Aboutus";
 import ContactForm from "./componenets/ContactForm";
 
-import { useRef } from "react";
+
 import Work from "./componenets/Work";
 import Count from "./componenets/Count";
 import Team from "./componenets/Team";
 import Loader from "./componenets/Loader";
 import { useEffect } from "react";
 import { useState } from "react";
+import { useRef } from 'react';
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -25,8 +26,8 @@ function App() {
     }, 500);
   }, []);
 
-  const contactFormRef = useRef(null);
-  const Serviceformref = useRef(null);
+  const aboutusRef = useRef(null);
+ 
   return (
     <>
       {loading ? (
@@ -34,11 +35,14 @@ function App() {
       ) : (
         <div className="bg-slate-300">
         
-          <Navbar />
+          <Navbar aboutusRef={aboutusRef}  />
           <Into />
           <div className="bg-gray-50 ">
           <Services/>
+
+          <div  ref={aboutusRef} >
           <Aboutme/>
+          </div>
           </div>
           <Portfolio />
           <Count />

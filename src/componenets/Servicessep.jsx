@@ -34,7 +34,12 @@ const Servicessep = () => {
     </svg>
 </g>
 </svg>
-              <h3 className="font-semibold  text-2xl mb-4">Web Development</h3>
+          
+          
+           
+          
+          
+          <h3 className="font-semibold  text-2xl mb-4">Web Development</h3>
           <p className=' text-gray-600 hover:text-white  mb-4   flex flex-grow '>
             Create a stunning online presence with <br /> our  bespoke web development services.  <br />Our team employs the latest <br /> technologies to build websites that <br /> captivate and convert.
           </p>
@@ -55,7 +60,7 @@ const Servicessep = () => {
  xmlnsXlink:xlink="http://www.w3.org/1999/xlink" xmlnsXlink:svgjs="http://svgjs.com/svgjs">
 <defs id="SvgjsDefs1409"></defs>
 <g id="SvgjsG1410">
-    <svg  xmlnsXlink="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"
+    <svg  xmlnsXlink="http://www.w3.org/2000/svg" fill-rule="evenodd" clipRule="evenodd"
          image-rendering="optimizeQuality" shape-rendering="geometricPrecision" text-rendering="geometricPrecision"
          viewBox="0 0 512 512" >
         <defs>
@@ -76,82 +81,37 @@ const Servicessep = () => {
         </div>
       </div>
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
-        <div className="h-full p-6 bg-slate-100  card rounded-md shadow-xl">
-        <svg  className="w-full svg sm:w-1/2 lg:w-1/3 p-4 transition-transform duration-300"  id="SvgjsSvg1035"  xmlnsXlink="http://www.w3.org/2000/svg" version="1.1"
- xmlnsXlink:xlink="http://www.w3.org/1999/xlink" xmlnsXlink:svgjs="http://svgjs.com/svgjs">
-<defs id="SvgjsDefs1036"></defs>
-<g id="SvgjsG1037">
-    <svg xmlnsXlink="http://www.w3.org/2000/svg" enableBackground="new 0 0 64 64" viewBox="0 0 64 64" >
-        <path 
-              d="M6,54h52c1.105,0,2-0.895,2-2V16c0-1.105-0.895-2-2-2H6c-1.105,0-2,0.895-2,2v36C4,53.105,4.895,54,6,54z"
-              className="color0a5078 svgShape"></path>
-        <path fill="#7b68ee" d="M43,14v26l3.106,6.211c0.369,0.737,1.42,0.737,1.789,0L51,40V14H43z"
-              className="color00325a svgShape"></path>
-        <path 
-              d="M9,50h46c0.552,0,1-0.448,1-1V19c0-0.552-0.448-1-1-1H9c-0.552,0-1,0.448-1,1v30C8,49.552,8.448,50,9,50z"
-              className="color00a0c8 svgShape"></path>
-        <path fill="orange"
-              d="M18,43h-7c-0.553,0-1-0.447-1-1V31c0-0.553,0.447-1,1-1s1,0.447,1,1v10h6c0.553,0,1,0.447,1,1S18.553,43,18,43z"
-              className="colorc80a50 svgShape"></path>
-        <polygon fill="orange" points="18 39 18 45 21 42" className="colorc80a50 svgShape"></polygon>
-        <path fill="orange"
-              d="M18,46c-0.129,0-0.259-0.024-0.383-0.076C17.243,45.77,17,45.404,17,45v-6c0-0.404,0.243-0.77,0.617-0.924c0.375-0.155,0.804-0.069,1.09,0.217l3,3c0.391,0.391,0.391,1.023,0,1.414l-3,3C18.516,45.898,18.26,46,18,46z M19,41.414v1.172L19.586,42L19,41.414z"
-              className="colorc80a50 svgShape"></path>
-        <path fill="#0082aa" d="M43,18v22l3.106,6.211c0.369,0.737,1.42,0.737,1.789,0L51,40V18H43z"
-              className="color0082aa svgShape"></path>
-        <rect width="8" height="4" x="28" y="54" fill="#0a5078" transform="rotate(-180 32 56)"
-              className="color0a5078 svgShape"></rect>
-        <path fill="#0a5078" d="M20,60h24v0c0-1.105-0.895-2-2-2H22C20.895,58,20,58.895,20,60L20,60z"
-              className="color0a5078 svgShape"></path>
-        <rect width="8" height="1" x="28" y="54" fill="#00325a" transform="rotate(-180 32 54.5)"
-              className="color00325a svgShape"></rect>
-        <rect width="8" height="28" x="44" y="12" fill="#fab400" className="colorfab400 svgShape"></rect>
-        <polygon fill="#f0c8a0" points="52 40 44 40 46 44 50 44" className="colorf0c8a0 svgShape"></polygon>
-        <path fill="#0a5078" d="M46,44l1.106,2.211c0.369,0.737,1.42,0.737,1.789,0L50,44H46z"
-              className="color0a5078 svgShape"></path>
-        <rect width="8" height="2" x="44" y="10" fill="#f0f0f0" className="colorf0f0f0 svgShape"></rect>
-        <path fill="#0a5078" d="M50,4h-4c-1.105,0-2,0.895-2,2v4h8V6C52,4.895,51.105,4,50,4z"
-              className="color0a5078 svgShape"></path>
-        <rect width="16" height="10" x="11" y="21" fill="#f0f0f0" className="colorf0f0f0 svgShape"></rect>
-        <path fill="#d2d2d2"
-              d="M27,32H11c-0.553,0-1-0.447-1-1V21c0-0.553,0.447-1,1-1h16c0.553,0,1,0.447,1,1v10C28,31.553,27.553,32,27,32z M12,30h14v-8H12V30z"
-              className="colord2d2d2 svgShape"></path>
-        <rect width="2" height="18.868" x="18" y="16.566" fill="#d2d2d2" transform="rotate(-58 19 26)"
-              className="colord2d2d2 svgShape"></rect>
-        <rect width="18.868" height="2" x="9.566" y="25" fill="#d2d2d2" transform="rotate(-32.031 18.998 25.998)"
-              className="colord2d2d2 svgShape"></rect>
-        <rect width="16" height="10" x="23" y="37" fill="#f0f0f0" className="colorf0f0f0 svgShape"></rect>
-        <path fill="#d2d2d2"
-              d="M39,48H23c-0.553,0-1-0.447-1-1V37c0-0.553,0.447-1,1-1h16c0.553,0,1,0.447,1,1v10C40,47.553,39.553,48,39,48z M24,46h14v-8H24V46z"
-              className="colord2d2d2 svgShape"></path>
-        <rect width="2" height="18.868" x="30" y="32.566" fill="#d2d2d2" transform="rotate(-58 31 42)"
-              className="colord2d2d2 svgShape"></rect>
-        <rect width="18.868" height="2" x="21.566" y="41" fill="#d2d2d2" transform="rotate(-32.031 30.996 41.996)"
-              className="colord2d2d2 svgShape"></rect>
-        <g>
-            <path fill="orange"
-                  d="M39 22h-8c-.552 0-1-.448-1-1v0c0-.552.448-1 1-1h8c.552 0 1 .448 1 1v0C40 21.552 39.552 22 39 22zM39 26h-8c-.552 0-1-.448-1-1v0c0-.552.448-1 1-1h8c.552 0 1 .448 1 1v0C40 25.552 39.552 26 39 26zM39 30h-8c-.552 0-1-.448-1-1v0c0-.552.448-1 1-1h8c.552 0 1 .448 1 1v0C40 29.552 39.552 30 39 30zM39 34h-8c-.552 0-1-.448-1-1l0 0c0-.552.448-1 1-1h8c.552 0 1 .448 1 1l0 0C40 33.552 39.552 34 39 34z"
-                  className="color0082aa svgShape"></path>
-        </g>
-    </svg>
-</g>
+        <div className="h-full p-6 bg-slate-100   card rounded-md shadow-xl ">
+    
+<svg className="w-full m-10 svg sm:w-1/2 lg:w-1/3  transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"  fill="currentColor">
+<circle cx="12" cy="12" r="6" />
+<circle cx="52" cy="12" r="6" />
+<circle cx="12" cy="52" r="6" />
+<circle cx="52" cy="52" r="6" />
+<circle cx="32" cy="32" r="6" />
+<line x1="18" y1="12" x2="26" y2="32" stroke="currentColor" stroke-width="2" />
+<line x1="46" y1="12" x2="38" y2="32" stroke="currentColor" stroke-width="2" />
+<line x1="32" y1="38" x2="12" y2="46" stroke="currentColor" stroke-width="2" />
+<line x1="32" y1="38" x2="52" y2="46" stroke="currentColor" stroke-width="2" />
+<line x1="12" y1="18" x2="12" y2="46" stroke="currentColor" stroke-width="2" />
+<line x1="52" y1="18" x2="52" y2="46" stroke="currentColor" stroke-width="2" />
 </svg>
- <h3 className="font-semibold text-black text-2xl mb-4">UI/UX Design</h3>
+
+ <h3 className="font-semibold text-black text-2xl mb-4">Machine Learning</h3>
           <p className='  text-gray-600 hover:text-white  mb-4'>
-          Transform your concepts into visually stunning and user-friendly designs. Our UI/UX designers craft interfaces that captivate users and enhance engagement.        </p>
+          Transform your data into actionable insights with our machine learning services. We develop models that identify patterns, predict trends, and provide intelligent automation      </p>
         </div>
       </div>
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="h-full p-6 bg-slate-100 hover:text-white card rounded-md shadow-xl">
           <svg className="w-full svg sm:w-1/2 lg:w-1/3 p-4 transition-transform duration-300"  xmlnsXlink="http://www.w3.org/2000/svg" version="1.1" xmlnsXlink:xlink="http://www.w3.org/1999/xlink" xmlnsXlink:svgjs="http://svgjs.com/svgjs"><defs id="SvgjsDefs1038"></defs><g id="SvgjsG1039"><svg xmlnsXlink="http://www.w3.org/2000/svg" data-name="glipy copy" viewBox="0 0 64 64" ><defs><linearGradient id="a" x1="4.04" x2="59.96" y1="32" y2="32" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#00c0ff" className="stopColor00c0ff svgShape"></stop><stop offset="1" stop-color="#5558ff" className="stopColor5558ff svgShape"></stop></linearGradient></defs><path  d="M31.25159,55.0238a16.8148,16.8148,0,0,1,0-23.72989c13.29233-14.41419-6.461-34.19612-20.89715-20.897a14.778,14.778,0,0,0-.10965,20.77735v-2.364a.99766.99766,0,0,1,1.99495.00006v4.7878a1.00038,1.00038,0,0,1-.99748.99747H6.46445a.99766.99766,0,0,1-.00007-1.99494h2.374A16.81,16.81,0,0,1,8.9381,8.98042C25.35856-6.08562,47.72976,16.30361,32.668,32.71037c-13.29245,14.41491,6.46172,34.19581,20.89722,20.897A14.778,14.778,0,0,0,53.67485,32.83v2.36407a.99748.99748,0,0,1-1.99495,0V30.40614a1.00038,1.00038,0,0,1,.99748-.99747h4.77788a.99766.99766,0,0,1-.00006,1.99495H55.08127C69.95577,47.861,47.578,70.02755,31.25159,55.0238ZM25.586,29.289l-.59846-.60845a8.88068,8.88068,0,0,1-3.90016,1.03735l-.21942.82786a1.79349,1.79349,0,0,1-2.18447,1.26687l-1.53609-.41892a1.78911,1.78911,0,0,1-1.26681-2.18447l.2294-.82792a8.80994,8.80994,0,0,1-2.85276-2.85276l-.81794.22934a1.80435,1.80435,0,0,1-2.19445-1.26675L9.83585,22.955a1.79371,1.79371,0,0,1,1.26681-2.18447l.82786-.2294A9.013,9.013,0,0,1,12.96794,16.651l-.59853-.59846a1.782,1.782,0,0,1,0-2.52363l1.12716-1.12716a1.782,1.782,0,0,1,2.52363,0l.60845.60845a8.8396,8.8396,0,0,1,3.89017-1.03735l.21942-.82792a1.79834,1.79834,0,0,1,2.18447-1.26675l1.53609.41892a1.79362,1.79362,0,0,1,1.26681,2.18447l-.21942.82792A8.97432,8.97432,0,0,1,28.349,16.16224l.82792-.21947a1.79566,1.79566,0,0,1,2.18447,1.25682l.40894,1.53615a1.78586,1.78586,0,0,1-1.26681,2.18447l-.82786.2294a8.83959,8.83959,0,0,1-1.03741,3.89012l.59852.59852a1.782,1.782,0,0,1,0,2.52357L28.11957,29.289A1.79408,1.79408,0,0,1,25.586,29.289Zm-8.2789-11.93986C12.825,22.07835,19.56,28.82555,24.29923,24.34154,28.786,19.60762,22.03774,12.86572,17.30705,17.34912Zm1.41639,1.41639c-2.68552,2.776,1.38425,6.86263,4.15939,4.15958A2.94134,2.94134,0,0,0,18.72344,18.76551ZM38.3337,34.71524l.59846.60844a8.88148,8.88148,0,0,1,3.90021-1.03735c.16584-.68686.34928-1.56927,1.04728-1.91507.79334-.5707,2.0719.08067,2.89264.23932a1.74691,1.74691,0,0,1,1.08721.82792,2.609,2.609,0,0,1-.0498,2.18447,8.80868,8.80868,0,0,1,2.85276,2.85276l.81794-.2294a1.80448,1.80448,0,0,1,2.19445,1.26676l.40894,1.53614A1.79374,1.79374,0,0,1,52.817,43.23371l-.82786.22939a9.01326,9.01326,0,0,1-1.03741,3.89018l.59852.59846a1.782,1.782,0,0,1,0,2.52358l-1.12715,1.12715a1.782,1.782,0,0,1-2.52364,0L47.291,50.994a8.83866,8.83866,0,0,1-3.89017,1.03735l-.21941.82792A1.791,1.791,0,0,1,40.997,54.12611c-.78446-.264-2.22594-.37448-2.62337-1.24691a2.6541,2.6541,0,0,1,.03982-2.18441A8.976,8.976,0,0,1,35.57067,47.842l-.82792.21942a1.79567,1.79567,0,0,1-2.18447-1.25683l-.40894-1.53609a1.78584,1.78584,0,0,1,1.26682-2.18447l.82786-.2294a8.83953,8.83953,0,0,1,1.03741-3.89017l-.59852-.59846a1.78211,1.78211,0,0,1,0-2.52364l1.11716-1.12715A1.79407,1.79407,0,0,1,38.3337,34.71524Zm8.279,11.93979c4.49186-4.72789-2.25808-11.47789-6.99218-6.99242C35.13732,44.39556,41.87685,51.1377,46.61272,46.655Zm-1.4164-1.41645A2.94138,2.94138,0,0,0,41.03687,41.079C38.33418,43.85335,42.42088,47.93165,45.19632,45.23858Z"></path></svg></g></svg>
- <h3 className="font-semibold text-black  text-2xl mb-4">DevOps
+ <h3 className="font-semibold text-black text-2xl mb-4">Project Managment
           </h3>
-          <p className='  text-gray-600 hover:text-white  mb-4'>    Enhance collaboration, streamline workflows, and accelerate delivery with our DevOps practices. We integrate and automate your pipeline from code to cloud.         </p>
+          <p className='  text-gray-600 hover:text-white  mb-4'> We provide mechanical design services .Our expertise in SOLIDWORKS allows us to create precise 3D models, while ANSYST enables advanced simulations, including stress, thermal analyses.        </p>
         </div>
       </div>
       <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
         <div className="h-full p-6 bg-slate-100  card rounded-md shadow-xl">
-
         <svg className="w-full svg sm:w-1/2 lg:w-1/3 p-4 transition-transform duration-300"  xmlnsXlink="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="180" height="180">
 <circle cx="60" cy="60" r="45"  fill="none" stroke-width="3"/>
 <rect x="30" y="35" width="13" height="50" />
@@ -165,7 +125,7 @@ const Servicessep = () => {
          
   <h3 className="font-semibold text-black text-2xl mb-4">Data Analysis</h3>
 
-          <p className=' text-gray-600   mb-4'>
+          <p className=' text-gray-600 hover:text-white text-lg  mb-4'>
           Uncover critical insights and drive smarter decision making with our comprehensive data analysis solutions. Transform raw data into actionable intelligence.         </p>
         </div>
       </div>
@@ -173,34 +133,557 @@ const Servicessep = () => {
   </div>
 </section>
 <style jsx>{`
-  .card {
-    transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  }
-  
-  .card:hover {
-    transform: translateY(-10px); 
-    background-color: rgb(32, 88, 157);
-    color: white; /* This will change the text color to white */
-  }
 
-  /* Ensure all child elements also change color */
-  .card:hover h3,
-  .card:hover p,
-  .card:hover svg {
-    color: white;
-    fill: white;
-  }
+.t-card {
+  position: relative;
+  z-index: 1;
+  min-width: 22%;
+  background-color: rgba(255, 255, 255, 1); 
+  transition: background-color 0.3s ease-in-out;
+}
 
-  .svg {
-    fill: #0077B5;
-  }
+.t-card:hover {
+  background-color: rgba(255, 255, 255, 0.5); 
 
-  .card:hover .svg {
-    transform: scaleX(-1); /* This keeps the scale animation as well */
-  }
+}
+
+
+.t-card img {
+  transition: opacity 0.3s ease-in-out;
+}
+.t-card:hover img {
+  opacity: 0.5;
+}
+.card {
+transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.card:hover {
+transform: translateY(-10px); 
+background-color: rgb(32, 88, 157);
+
+
+color:white;
+}
+
+
+.services{
+color:rgb(64, 64, 64)
+}
+.facebook:hover{
+background-color: #3B5998;
+fill: white;
+
+}
+.insta:hover{
+background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+fill: white;
+}
+.linkdin:hover{
+background-color: #0077B5;
+fill:white; 
+}
+.t-linkdin{
+background-color:#0077B5;
+fill:white;
+}
+.t-github{
+background-color:#181717;
+fill: white;
+}
+.t-facebook{
+background-color: #3B5998;
+fill: white;
+
+}
+.github:hover{
+background-color:#181717;
+fill: white;
+}
+.twitter:hover{
+fill: white;
+background-color:  #181717;
+}
+.whatsapp:hover{
+fill: white;
+background-color: #25D366; 
+}
+.t-whatsapp{
+fill: white;
+background-color: #25D366; 
+}
+.t-insta{
+background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+fill: white;
+}
+.stylish-regular {
+font-family: "Stylish", serif;
+font-weight: 400;
+font-style: normal;
+}
+.logo{
+font-family: "Audiowide", sans-serif;
+font: 24px;
+}
+.getin{
+background-color: rgb(221, 149, 16);
+color: black;
+}
+.getin:hover{
+background-color: orange;
+
+}
+.introcont{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 20px;
+background-image: url('images/home-bottom-shape.png');
+
+}
+.container{
+height: 80vh;
+margin: auto;
+z-index: 10;
+background-color:rgb(62, 59, 59);
+color: white;
+width: 80%;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px rgba(38, 38, 38, 0.25);
+}
+.icon {
+transition: transform 0.30s ease; 
+fill: rgb(255, 255, 255);
+
+
+}
+.iconn{
+fill: #25D366;
+}
+.card:hover .icon {
+
+
+transform:rotateX(180deg);
+
+fill:darkslateblue;
+}
+
+
+.ul:hover{
+text-decoration: underline;
+
+text-underline-offset:8px ; 
+text-decoration-color: #1e40af;
+transition: text-decoration-color 0.3s ; 
+cursor: pointer;
+}
+/* body{
+background-color: whitesmoke;
+}
+
+.App {
+position: relative;
+}
+.phone{
+fill: white;
+}
+
+button {
+margin: 20px;
+}
+
+
+
+.custom-tooltip {
+background-color: #333;
+color: #fff;
+border-radius: 4px;
+padding: 8px;
+font-size: 14px;
+text-align: center;
+}
+
+.custom-tooltip::after {
+border-top: 6px solid #333; 
+}
+
+
+.App {
+font-family: sans-serif;
+text-align: center;
+}
+
+
+.card {
+transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+
+.card:hover {
+transform: translateY(-10px); 
+background-color: rgb(96 165 250 );
+
+
+color:white; 
+}
+.card:hover p{
+color: white;
+}
+.card:hover h3{
+color: white;
+}
+.card:hover .svg{
+fill: #fff;
+transform: scaleX(-1);
+}
+.w-card{
+transition: transform 0.3s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+
+
+}
+.w-card:hover {
+transform: translateY(-5px); 
+}
+.w-card:hover .svg{
+background-color: white;
+padding: 3px;
+border: 2px solid white;
+border-radius: 10px;
+}
+.svg{
+fill: #0077B5;
+}
+
+
+
+.serv{
+width: 70%;
+}
+.serv img{
+height: 0vh;
+width: 50 ;
+
+}
+.psec img{
+height: 100px;
+width: 300px;
+}
+
+.count{
+width: 100%;
+height: 50vh;
+position: relative;
+z-index: 1;
+padding: 120px 0;
+text-align: center;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.count::before {
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0.6;
+background-color: #1f1f54;
+}
+.footer{
+background-image: url('images/dot-bg.png');
+background-color: #0077B5 ;
+}
+.team{
+background-image: url('images/dot-bg.png');
+}
+.t-img{
+width: 200px;
+height: 40vh;
+}
+
+
+
+.sticky-header{
+position: sticky; 
+top: 0; 
+z-index: 1000;
+}
+.ft-icon{
+
+fill: #0077B5;
+}
+.button-blue{
+
+cursor: pointer;     
+transition: background-color 0.4s, color 0.4s;
+}
+
+.button-white:hover{
+
+border: none;
+
+
+}
+.button-white {
+
+cursor: pointer;               
+transition: background-color 0.4s, color 0.4s,  box-shadow 0.4s; 
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+.hamburger {
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 20px;
+width: 20px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+
+.hamburger .bar {
+height: 3px;
+background-color: white;
+transition: all 0.3s ease-in-out;
+}
+
+.hamburger.open .bar:nth-child(1) {
+transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .bar:nth-child(2) {
+opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+transform: rotate(-45deg) translate(5px, -5px);
+}
+.ham-button{
+display: none;
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+button {
+margin: 20px;
+}
+.card {
+transition: transform 0.2s ease-in-out, background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.card:hover {
+transform: translateY(-10px); 
+background-color: rgb(32, 88, 157);
+
+
+color:white;
+}
+.card:hover p{
+color: white;
+}
+.card:hover h3{
+color: white;
+}
+.card:hover .svg{
+fill: #fff;
+transform: scaleX(-1);
+}
+.svg{
+fill: #0077B5;
+}
+
+.psec img{
+height: 100px;
+width: 300px;
+
+}
+.t-icon{
+opacity: 0;
+}
+
+/* 
+.count{
+
+width: 100%;
+height: 50vh;
+position: relative;
+z-index: 1;
+padding: 120px 0;
+text-align: center;
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+.count::before {
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0.6;
+background-color: #1f1f54;
+} */
+/* .footer{
+background-image: url('images/dot-bg.png');
+background-color: #0077B5 ;
+} */
+.team{
+background-image: url('images/dot-bg.png');
+}
+
+
+
+.sticky-header{
+position: sticky; 
+top: 0; 
+z-index: 1000;
+}
+.ft-icon{
+
+fill: #0077B5;
+}
+.button-blue{
+
+cursor: pointer;               
+transition: background-color 0.4s, color 0.4s;
+}
+
+.button-white:hover{
+
+border: none;
+
+
+}
+.button-white {
+
+cursor: pointer;               
+transition: background-color 0.4s, color 0.4s,  box-shadow 0.4s; 
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.services{
+color:rgb(64, 64, 64)
+}
+.facebook:hover{
+background-color: #3B5998;
+fill: white;
+
+}
+.insta:hover{
+background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+fill: white;
+}
+.linkdin:hover{
+background-color: #0077B5;
+fill:white; 
+}
+.t-linkdin{
+background-color:#0077B5;
+fill:white;
+}
+.t-github{
+background-color:#181717;
+fill: white;
+}
+.t-facebook{
+background-color: #3B5998;
+fill: white;
+
+}
+.github:hover{
+background-color:#181717;
+fill: white;
+}
+.twitter:hover{
+fill: white;
+background-color:  #181717;
+}
+.whatsapp:hover{
+fill: white;
+background-color: #25D366; 
+}
+.t-whatsapp{
+fill: white;
+background-color: #25D366; 
+}
+.t-insta{
+background: linear-gradient(to right, #F58529, #DD2A7B, #8134B9);
+fill: white;
+}
+.stylish-regular {
+font-family: "Stylish", serif;
+font-weight: 400;
+font-style: normal;
+}
+.logo{
+font-family: "Audiowide", sans-serif;
+font: 24px;
+}
+.getin{
+background-color: rgb(221, 149, 16);
+color: black;
+}
+.getin:hover{
+background-color: orange;
+
+}
+.introcont{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+gap: 20px;
+background-image: url('images/home-bottom-shape.png');
+
+}
+.container{
+height: 80vh;
+margin: auto;
+z-index: 10;
+background-color:rgb(62, 59, 59);
+color: white;
+width: 80%;
+border-radius: 10px;
+box-shadow: 5px 5px 5px 5px rgba(38, 38, 38, 0.25);
+}
+.icon {
+transition: transform 0.30s ease; 
+fill: rgb(255, 255, 255);
+
+
+}
+.iconn{
+fill: #25D366;
+}
+.card:hover .icon {
+
+
+transform:rotateX(180deg);
+
+fill:darkslateblue;
+}
+
+
+.ul:hover{
+text-decoration: underline;
+
+text-underline-offset:8px ; 
+text-decoration-color: #1e40af;
+transition: text-decoration-color 0.3s ; 
+cursor: pointer;
+}
+
+
+
+
 `}
 </style>
-
     <Footer/>
     </>
   );

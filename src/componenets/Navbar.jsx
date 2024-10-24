@@ -34,14 +34,14 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
             <NavLink className={'underl'} to="/portfolio">Portfolio</NavLink>
             <NavLink className={'underl'} to="/team">Team</NavLink>
             <NavLink className={'underl'} to="/contact">Contact</NavLink>
-            <NavLink className={'underl'} to="/about">About Us</NavLink>
+            <NavLink className={'underl'} to="/about">About us</NavLink>
           </div>
         </div>
 
         {/* Mobile Menu */}
         <div
           className={`flex flex-col justify-center absolute top-16 right-1 bg-white w-32 font-semibold py-5 transition-transform duration-300 ease-in-out transform ${
-            isOpen ? "scale-100 opacity-100" : "scale-95 opacity-0"
+            isOpen ? "scale-100 opacity-100" : "scale-95 hidden opacity-0"
           } md:hidden`}
         >
           <ul className="text-black">
@@ -55,23 +55,24 @@ const Navbar = ({ contactFormRef, Serviceformref }) => {
               <NavLink to="/portfolio">Portfolio</NavLink>
             </li>
             <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              <NavLink to="/contact">Team</NavLink>
+              <NavLink to="/team">Team</NavLink>
             </li>
             <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
               <NavLink to="/contact">Contact</NavLink>
             </li>
             <li onClick={toggleMenu} className="px-4 py-2 hover:bg-gray-200 cursor-pointer">
-              <NavLink to="/about">About US</NavLink>
+              <NavLink to="/about">About us</NavLink>
             </li>
           </ul>
         </div>
-
-        <button
-          onClick={handleGetInTouchClick}
+        <a href="https://wa.me/3186840896?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services"
+  target="_blank"
+  rel="noopener noreferrer" 
+        
           className="m-5 bg-blue-900 focus:ring-2 font-semibold shadow-2xl text-white border-0 py-2 px-8 rounded text-lg transition-transform duration-300 hover:scale-105 focus:outline-none hidden md:flex"
         >
           Get IT Support
-        </button>
+        </a>
 
         {/* Hamburger Button for Mobile Menu */}
         <button
